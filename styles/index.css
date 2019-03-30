@@ -1,0 +1,13 @@
+#lightGallery div {
+  height: 100%; }
+  #lightGallery div img {
+    width: auto;
+    height: 100%; }
+
+#indexCenter {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=index.css.map */

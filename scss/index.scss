@@ -1,0 +1,16 @@
+#lightGallery {
+  div {
+    height: 100%;
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+#indexCenter {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
