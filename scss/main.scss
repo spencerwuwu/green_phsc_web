@@ -86,3 +86,14 @@ body {
   color: #555;
 }
 
+.large-only {
+  @media #{$small-device} {
+    display: none !important;
+  }
+}
+
+.small-only {
+  @media #{$large-device} {
+    display: none !important;
+  }
+}

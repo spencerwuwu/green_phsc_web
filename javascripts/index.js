@@ -1,8 +1,8 @@
 
 function set_height() {
   var screen_height = $(window).height() - $("#mainMenu").height();
-  $("#indexCenter").css("height", screen_height * 0.4);
-  $("#lightGallery").css("height", screen_height * 0.6);
+  $("#indexCenter").css("height", screen_height * 0.5);
+  $("#lightGallery").css("height", screen_height * 0.5);
 }
 
 /*
