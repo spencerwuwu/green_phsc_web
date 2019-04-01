@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head lang="zh-TW">
+    <meta charset="utf-8">
+    <title>
+      綠攝影劇
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="javascripts/jquery-3.3.1.min.js"></script>
+    <script src="semantic-ui/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+    <link type="text/css" rel="stylesheet" href="lg-dist/css/lightgallery.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+  </head>
+
+  <body>
+
+    <div class="ui fixed borderless main menu" id="mainMenu">
+
+      <div class="left menu">
+        <div class="header item">
+          <h2>
+            2019 綠攝影劇創作
+          </h2>
+        </div>
+      </div>
+
+      <div class="right menu large-only">
+        <a class="item" href="index.html">首頁</a>
+        <a class="item" href="photo_contest.html">關於攝影比賽</a>
+        <a class="item" href="script_contest.html">關於劇本比賽</a>
+        <a class="item" href="gallery.html">歷年作品</a>
+      </div>
+
+      <div class="right menu small-only">
+        <div class="ui dropdown icon item" id="smallMenuBtn">
+          <i class="bars large icon"></i>
+          <div class="menu">
+            <a class="item" href="index.html">首頁</a>
+            <a class="item" href="photo_contest.html">關於攝影比賽</a>
+            <a class="item" href="script_contest.html">關於劇本比賽</a>
+            <a class="item" href="gallery.html">歷年作品</a>
+          </div>
+        </div>
+      </div>
+      <script>  $("#smallMenuBtn").dropdown(); </script>
+
+    </div>
+
+    <div id="body-container">
+
+      <!-- Content -->
+
+      <div id="content-container">
+        <div class="my-header">歷年作品</div><br>
+        <div class="my-content">
+          <div class="my-subheader">
+            2018 攝影
+          </div>
+          <br>
+
+          <div class="ui three column doubling stackable grid" id="lightGallery">
+            <div class="column" data-src="images/aestetic-taipei.jpg">
+              <div class="ui centered card">
+                <div class="image">
+                  <img src="images/aestetic-taipei.jpg" style="width: 100%;">
+                </div>
+                <div class="content">
+                  abc
+                </div>
+              </div>
+            </div>
+
+            <div class="column" data-src="images/aesthetic-sakura-wallpaper.jpg">
+              <div class="ui centered card">
+                <div class="image">
+                  <img src="images/aesthetic-sakura-wallpaper.jpg" style="width: 100%;">
+                </div>
+                <div class="content">
+                  abc
+                </div>
+              </div>
+            </div>
+
+            <div class="column" data-src="images/aesthetic-sakura-wallpaper.jpg">
+              <div class="ui centered card">
+                <div class="image">
+                  <img src="images/aesthetic-sakura-wallpaper.jpg" style="width: 100%;">
+                </div>
+                <div class="content">
+                  abc
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- lightgallery -->
+      <script src="lg-dist/js/lightgallery-all.min.js"></script>
+      <script src="javascripts/jquery.mousewheel.min.js"></script>
+      <script>
+        $('#lightGallery').lightGallery();
+      </script>
+
+
+      <!-- End of Content -->
+
+      <button class="huge ui basic icon button" id="scrollTop" onclick="scroll2Top()"><i class="angle up icon"></i></button>
+      <script>function scroll2Top() {
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+      }</script>
+
+      <div class="ui footer segment" style="height: 100px; background: gray;">
+        <div class="ui center aligned container">
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
