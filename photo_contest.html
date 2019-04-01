@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
     <link type="text/css" rel="stylesheet" href="lg-dist/css/lightgallery.min.css" />
-    <link type="text/css" rel="stylesheet" href="slick/slick.css" />
 
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
@@ -55,8 +54,9 @@
 
       <!-- Content -->
       <div id="content-container">
-        <div class="my-header">關於劇本比賽</div><br>
+        <div class="my-header">關於攝影比賽</div><br>
 
+        <!-- 參賽辦法 -->
         <div class="my-content">
           <div class="my-subheader">
             參賽辦法
@@ -73,6 +73,8 @@
           </p>
         </div>
 
+
+        <!-- 作品規範 -->
         <div class="my-content">
           <div class="my-subheader">
             作品規範
@@ -101,6 +103,9 @@
           </p>
         </div>
 
+
+
+        <!-- 評選獎項 -->
         <div class="my-content">
           <div class="my-subheader">
             評選獎項
@@ -111,6 +116,7 @@
         </div>
 
 
+        <!-- 我要報名! -->
         <div class="my-content">
           <div class="ui big button" data-iframe="true" id="open-website" data-src="https://docs.google.com/forms/d/e/1FAIpQLSdWUhs-qbP-_ccVaISyKZifnJ8mDCa8oHxA_JjNEstPB3bomA/viewform">
             我要報名!
@@ -123,6 +129,75 @@
         <script>
           $('#open-website').lightGallery({selector: 'this'});
         </script>
+
+
+
+        <!-- IG Feeds -->
+        <div class="my-content">
+          <div class="ui three column doubling stackable grid">
+            <div class="column">
+              <div class="ui centered card">
+                <div class="content">
+                  <div class="right floated meta">14h</div>
+                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
+                </div>
+                <div class="image">
+                  <img src="images/flower-creature.jpg">
+                </div>
+                <div class="content">
+                  <span class="right floated">
+                    <i class="heart outline like icon"></i>
+                    17 likes
+                  </span>
+                  <i class="comment icon"></i>
+                  3 comments
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="ui centered card">
+                <div class="content">
+                  <div class="right floated meta">16h</div>
+                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
+                </div>
+                <div class="image">
+                  <img src="images/aesthetic-sakura-wallpaper.jpg">
+                </div>
+                <div class="content">
+                  <span class="right floated">
+                    <i class="heart outline like icon"></i>
+                    17 likes
+                  </span>
+                  <i class="comment icon"></i>
+                  3 comments
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="ui centered card">
+                <div class="content">
+                  <div class="right floated meta">19h</div>
+                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
+                </div>
+                <div class="image">
+                  <img src="images/aestetic-taipei.jpg">
+                </div>
+                <div class="content">
+                  <span class="right floated">
+                    <i class="heart outline like icon"></i>
+                    17 likes
+                  </span>
+                  <i class="comment icon"></i>
+                  3 comments
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
 
       </div>
 
@@ -140,11 +215,6 @@
       </div>
 
     </div>
-
-    <script> 
-      $(".ui.sticky").sticky({
-      });
-    </script>
 
   </body>
 
