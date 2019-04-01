@@ -31,8 +31,8 @@
 
       <div class="right menu large-only">
         <a class="item" href="index.html">首頁</a>
-        <a class="item" href="photo_contest.html">攝影參賽辦法</a>
-        <a class="item" href="script_contest.html">劇本參賽辦法</a>
+        <a class="item" href="photo_contest.html">關於攝影比賽</a>
+        <a class="item" href="script_contest.html">關於劇本比賽</a>
         <a class="item" href="gallery.html">歷年作品</a>
       </div>
 
@@ -41,8 +41,8 @@
           <i class="bars large icon"></i>
           <div class="menu">
             <a class="item" href="index.html">首頁</a>
-            <a class="item" href="photo_contest.html">攝影參賽辦法</a>
-            <a class="item" href="script_contest.html">劇本參賽辦法</a>
+            <a class="item" href="photo_contest.html">關於攝影比賽</a>
+            <a class="item" href="script_contest.html">關於劇本比賽</a>
             <a class="item" href="gallery.html">歷年作品</a>
           </div>
         </div>
@@ -55,11 +55,84 @@
 
       <!-- Content -->
       <div id="content-container">
-        <div class="my-header">攝影參賽辦法</div>
+        <div class="my-header">關於劇本比賽</div><br>
+
+        <div class="my-content">
+          <div class="my-subheader">
+            參賽辦法
+          </div>
+          <br>
+          <p class="color-lighter">
+          1. 不限年齡，需具有中華民國民身分證之國民或中華民國外僑居留證之外籍人士。
+          </p>
+          <p class="color-lighter">
+          2. 每位參賽者總上限投稿件數為10件作品，須為尚未發表、且未參加其他競賽之
+作品。
+          <p class="color-lighter">
+          3. 參賽者須於規定之徵件期間內上傳參賽作品。
+          </p>
+        </div>
+
+        <div class="my-content">
+          <div class="my-subheader">
+            作品規範
+          </div>
+          <br>
+          <p class="color-lighter">
+          1. 本賽初選以Instagram上傳報名，無預設作品檔案大小。唯參賽作品入圍後，須提供檔案大小1.5MB以上20MB以下與Instagram頁面相同之作品，入圍後繳交檔案格式為JPEG或JPG，且單邊不得小於3000 pixels。
+          </p>
+          <p class="color-lighter">
+          2. 投稿作品以未曾公開發表者為限。公開發表者定義：平面出版、公開展覽、投稿過至線上販售之圖庫或參加其他攝影比賽公開發表者。但發表於Facebook、個人部落格、網路論壇者不在此限。
+          </p>
+          <p class="color-lighter">
+          3. 參賽作品可適度調整亮度、對比、色調、銳利度、飽和度、裁切、拉直、
+修補雜點入塵、轉為單色調或黑白等。（為確保符合第一點之作品規範，
+不建議使用會壓縮檔案畫質之修圖軟體，例如：Instagram內建編修照片功
+能）
+          </p>
+          <p class="color-lighter">
+4. 不得使用軟體合成、疊圖、無中生有加工（如：邊框、留邊、附加文字，
+浮水印及簽名檔等）；相機重曝功能不在此限。唯主辦單位有疑議時需提
+出拍攝原始檔案格式（EXIF資訊）證明，主辦單位得全權判定作品所採用
+的數位後製是否可接受。
+          </p>
+          <p class="color-lighter">
+5. 同一張作品不得以重製、裁切、翻轉作品等方式重複投稿。
+          </p>
+        </div>
+
+        <div class="my-content">
+          <div class="my-subheader">
+            評選獎項
+          </div>
+          <p class="color-lighter">
+          .....
+          </p>
+        </div>
+
+
+        <div class="my-content">
+          <div class="ui big button" data-iframe="true" id="open-website" data-src="https://docs.google.com/forms/d/e/1FAIpQLSdWUhs-qbP-_ccVaISyKZifnJ8mDCa8oHxA_JjNEstPB3bomA/viewform">
+            我要報名!
+          </div>
+        </div>
+
+        <!-- lightgallery -->
+        <script src="lg-dist/js/lightgallery-all.min.js"></script>
+        <script src="javascripts/jquery.mousewheel.min.js"></script>
+        <script>
+          $('#open-website').lightGallery({selector: 'this'});
+        </script>
+
       </div>
 
 
       <!-- End of Content -->
+
+      <button class="huge ui basic icon button" id="scrollTop" onclick="scroll2Top()"><i class="angle up icon"></i></button>
+      <script>function scroll2Top() {
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+      }</script>
 
       <div class="ui footer segment" style="height: 100px; background: gray;">
         <div class="ui center aligned container">
@@ -68,10 +141,10 @@
 
     </div>
 
-  <script> 
-    $(".ui.sticky").sticky({
-    });
-  </script>
+    <script> 
+      $(".ui.sticky").sticky({
+      });
+    </script>
 
   </body>
 

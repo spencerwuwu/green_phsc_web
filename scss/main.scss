@@ -97,3 +97,11 @@ body {
     display: none !important;
   }
 }
+
+#scrollTop {
+    position: fixed;
+    opacity: 0.5;
+    z-index: 20;
+    bottom: 10%;
+    right: 20px;
+}
