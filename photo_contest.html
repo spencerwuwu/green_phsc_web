@@ -30,7 +30,14 @@
 
       <div class="right menu large-only">
         <a class="item" href="index.html">首頁</a>
-        <a class="item" href="photo_contest.html">關於攝影比賽</a>
+        <div class="ui pointing dropdown link item" id="LargeMenuDropdown">
+          <span class="text">關於攝影比賽</span>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="photo_contest.html">參賽辦法</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+          </div>
+        </div>
         <a class="item" href="script_contest.html">關於劇本比賽</a>
         <a class="item" href="gallery.html">歷年作品</a>
       </div>
@@ -40,12 +47,17 @@
           <i class="bars large icon"></i>
           <div class="menu">
             <a class="item" href="index.html">首頁</a>
-            <a class="item" href="photo_contest.html">關於攝影比賽</a>
+            <div class="divider"></div>
+            <div class="header">關於攝影比賽</div>
+            <a class="item" href="photo_contest.html">參賽辦法</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+            <div class="divider"></div>
             <a class="item" href="script_contest.html">關於劇本比賽</a>
             <a class="item" href="gallery.html">歷年作品</a>
           </div>
         </div>
       </div>
+      <script>  $("#LargeMenuDropdown").dropdown({on: 'hover'}); </script>
       <script>  $("#smallMenuBtn").dropdown(); </script>
 
     </div>
@@ -56,9 +68,23 @@
       <div id="content-container">
         <div class="my-header">關於攝影比賽</div><br>
 
+        <!-- Top buttons -->
+        <div class="ui three column grid">
+          <div class="column">
+            <a href="#method" class="fluid ui button">參加辦法</a>
+          </div>
+          <div class="column">
+            <a href="#rules" class="fluid ui button">作品規範</a>
+          </div>
+          <div class="column">
+            <a href="#prize" class="fluid ui button">評選獎項</a>
+          </div>
+        </div>
+        <script src="javascripts/scrollTo.js"></script>
+
         <!-- 參賽辦法 -->
         <div class="my-content">
-          <div class="my-subheader">
+          <div class="my-subheader" id="method">
             參賽辦法
           </div>
           <br>
@@ -76,7 +102,7 @@
 
         <!-- 作品規範 -->
         <div class="my-content">
-          <div class="my-subheader">
+          <div class="my-subheader" id="rules">
             作品規範
           </div>
           <br>
@@ -107,7 +133,7 @@
 
         <!-- 評選獎項 -->
         <div class="my-content">
-          <div class="my-subheader">
+          <div class="my-subheader" id="prize">
             評選獎項
           </div>
           <p class="color-lighter">
@@ -134,76 +160,6 @@
         <div class="my-content">
         </div>
 
-        <!-- IG Feeds -->
-        <div class="my-header">
-          即時賽況
-        </div>
-        <div class="my-content">
-          <br/>
-
-          <div class="ui three column doubling stackable grid">
-            <div class="column">
-              <div class="ui centered card">
-                <div class="content">
-                  <div class="right floated meta">14h</div>
-                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
-                </div>
-                <div class="image">
-                  <img src="images/flower-creature.jpg">
-                </div>
-                <div class="content">
-                  <span class="right floated">
-                    <i class="heart outline like icon"></i>
-                    17 likes
-                  </span>
-                  <i class="comment icon"></i>
-                  3 comments
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="ui centered card">
-                <div class="content">
-                  <div class="right floated meta">16h</div>
-                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
-                </div>
-                <div class="image">
-                  <img src="images/aesthetic-sakura-wallpaper.jpg">
-                </div>
-                <div class="content">
-                  <span class="right floated">
-                    <i class="heart outline like icon"></i>
-                    17 likes
-                  </span>
-                  <i class="comment icon"></i>
-                  3 comments
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="ui centered card">
-                <div class="content">
-                  <div class="right floated meta">19h</div>
-                  <img class="ui avatar image" src="images/elliot.jpg"> Elliot
-                </div>
-                <div class="image">
-                  <img src="images/aestetic-taipei.jpg">
-                </div>
-                <div class="content">
-                  <span class="right floated">
-                    <i class="heart outline like icon"></i>
-                    17 likes
-                  </span>
-                  <i class="comment icon"></i>
-                  3 comments
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
 
 
       </div>

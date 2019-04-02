@@ -31,7 +31,14 @@
 
       <div class="right menu large-only">
         <a class="item" href="index.html">首頁</a>
-        <a class="item" href="photo_contest.html">關於攝影比賽</a>
+        <div class="ui pointing dropdown link item" id="LargeMenuDropdown">
+          <span class="text">關於攝影比賽</span>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="photo_contest.html">參賽辦法</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+          </div>
+        </div>
         <a class="item" href="script_contest.html">關於劇本比賽</a>
         <a class="item" href="gallery.html">歷年作品</a>
       </div>
@@ -41,12 +48,17 @@
           <i class="bars large icon"></i>
           <div class="menu">
             <a class="item" href="index.html">首頁</a>
-            <a class="item" href="photo_contest.html">關於攝影比賽</a>
+            <div class="divider"></div>
+            <div class="header">關於攝影比賽</div>
+            <a class="item" href="photo_contest.html">參賽辦法</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+            <div class="divider"></div>
             <a class="item" href="script_contest.html">關於劇本比賽</a>
             <a class="item" href="gallery.html">歷年作品</a>
           </div>
         </div>
       </div>
+      <script>  $("#LargeMenuDropdown").dropdown({on: 'hover'}); </script>
       <script>  $("#smallMenuBtn").dropdown(); </script>
 
     </div>
