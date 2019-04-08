@@ -8,10 +8,15 @@ body {
 }
 
 #mainMenu {
-  padding-left: 50px;
-  background-color: $menu-white;
+  background-color: $bg-white;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #999;
   @media #{$small-device} {
-    padding-left: 2%;
+    padding-left: 0;
   }
 }
 
