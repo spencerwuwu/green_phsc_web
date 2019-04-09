@@ -31,5 +31,4 @@
        echo $menu;
     ?>
     
-    <div id="body-container">
 

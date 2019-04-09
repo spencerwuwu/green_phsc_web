@@ -1,19 +1,61 @@
 <?php include("header.php"); ?>
 <!-- Content -->
+<div class="contest-header green-bg">
+  2019 綠攝影劇 _ 綠能攝影競賽 </br>
+  Renewable Energy Photography Competition 2019
+</div>
+<img src="images/greenbox.png" style="position: relative; width: 100%; display: inline-block;"/>
+
 <div id="content-container">
-  <div class="my-header">關於攝影比賽</div><br>
 
   <!-- Top buttons -->
-  <div class="ui three column grid">
-    <div class="column">
-      <a href="#method" class="fluid ui button">參加辦法</a>
+  <div class="my-content">
+
+    <div class="center-wrapper large-only">
+      <div class="small-wrapper center-wrapper">
+        <div class="ui four column grid contest_btns">
+          <div class="column">
+            <a href="#method">參加辦法</a>
+          </div>
+          <div class="column">
+            <a href="#rules">作品規範</a>
+          </div>
+          <div class="column">
+            <a href="#process">評選流程</a>
+          </div>
+          <div class="column">
+            <a href="#prize" class="noline">獎勵辦法</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <a href="#rules" class="fluid ui button">作品規範</a>
+
+    <div class="center-wrapper small-only">
+      <div class="small-wrapper center-wrapper">
+        <div class="ui two column grid contest_btns">
+          <div class="column">
+            <a href="#method">參加辦法</a>
+          </div>
+          <div class="column">
+            <a href="#rules" class="noline">作品規範</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="column">
-      <a href="#prize" class="fluid ui button">評選獎項</a>
+
+    <div class="center-wrapper small-only">
+      <div class="small-wrapper center-wrapper">
+        <div class="ui two column grid contest_btns">
+          <div class="column">
+            <a href="#process">評選流程</a>
+          </div>
+          <div class="column">
+            <a href="#prize" class="noline">獎勵辦法</a>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
   <script src="javascripts/scrollTo.js"></script>
 

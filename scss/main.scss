@@ -6,6 +6,39 @@ body {
   background-color: $bg-white;
   font-family: ‘Noto Sans TC’, sans-serif;
   color: $font-gray;
+  a {
+    color: $font-gray;
+  }
+  a:hover {
+    color: $font-gray;
+    text-shadow: 1px 1px rgba(9,9,9,0.6);
+  }
+}
+
+.green-bg {
+  background: $my-green !important;
+  color: $bg-white !important;
+  border-color: $bg-white;
+  a {
+    color: $bg-white;
+  }
+  a:hover {
+    color: $bg-white;
+    text-shadow: 1px 1px rgba(9,9,9,0.6);
+  }
+}
+
+.yellow-bg {
+  background: $my-yellow !important;
+  color: $bg-white !important;
+  border-color: $bg-white;
+  a {
+    color: $bg-white;
+  }
+  a:hover {
+    color: $bg-white;
+    text-shadow: 1px 1px rgba(9,9,9,0.6);
+  }
 }
 
 #mainMenu {
@@ -18,7 +51,7 @@ body {
   //margin-right: 3%;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid $font-gray;
   @media #{$small-device} {
     padding-left: 0;
   }
@@ -33,6 +66,9 @@ body {
 
 .large.text {
   font-size: 22px;
+  @media #{$small-device} {
+    font-size: 1.1em;
+  }
 }
 
 #body-container {
@@ -83,31 +119,29 @@ body {
   margin-top: 20px;
   display: inline-block;
   width: 100%;
-  padding-left: 30px;
   padding-bottom: 30px;
   font-size: 1.2em;
-  @media #{$small-device} {
-    padding-left: 10px;
-  }
 }
 
 .center-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
+  margin: 10px 0;
 }
+
+.small-wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 768px;
+}
+
 
 .two-button-container {
   display: flex;
-  max-width: 768px;
+  max-width: 600px;
   width: 100%;
   justify-content: space-around;
-  @media #{$small-device} {
-    justify-content: center;
-  }
-}
-
-.color-lighter {
-  color: #555;
 }
 
 .large-only {
@@ -122,6 +156,35 @@ body {
   }
 }
 
+#footer {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid $font-gray;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 30px 0;
+  span {
+    display: flex;
+    align-content: center;
+    margin: 0 5px;
+  }
+  img {
+    margin-right: 3px;
+    height: 24px;
+    @media #{$small-device} {
+      height: 1.1em;
+    }
+  }
+}
+
+#copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 3px 0;
+}
+
 #scrollTop {
     position: fixed;
     opacity: 0.5;
@@ -129,3 +192,43 @@ body {
     bottom: 10%;
     right: 20px;
 }
+
+.contest-header{
+  width: 100%;
+  margin-top: 40px;
+  padding: 60px 7% 10px 7%;
+  display: inline-block;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 550;
+  @media #{$small-device} {
+    padding: 50px 5% 10px 5%;
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+}
+
+.contest_btns {
+  width: 90%;
+  text-align: center;
+  .column {
+    padding: 0 !important;
+  }
+  a {
+    display: inline-grid;
+    width: 100%;
+    border-right: 1px solid $font-gray;
+    @media #{$small-device} {
+      border-left: 1px solid $font-gray;
+    }
+  }
+  .noline {
+    border-left: none;
+    border-right: none;
+    @media #{$small-device} {
+      border-right: 1px solid $font-gray;
+    }
+  }
+}
+
+
