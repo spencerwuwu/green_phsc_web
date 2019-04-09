@@ -5,13 +5,17 @@
 body {
   background-color: $bg-white;
   font-family: ‘Noto Sans TC’, sans-serif;
+  color: $font-gray;
 }
 
 #mainMenu {
   background-color: $bg-white;
-  width: 94%;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  //width: 94%;
+  //margin-left: 3%;
+  //margin-right: 3%;
   box-shadow: none;
   border: none;
   border-bottom: 1px solid #999;
@@ -84,6 +88,21 @@ body {
   font-size: 1.2em;
   @media #{$small-device} {
     padding-left: 10px;
+  }
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.two-button-container {
+  display: flex;
+  max-width: 768px;
+  width: 100%;
+  justify-content: space-around;
+  @media #{$small-device} {
+    justify-content: center;
   }
 }
 

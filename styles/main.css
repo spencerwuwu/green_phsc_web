@@ -1,14 +1,15 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
-  background-color: #fcfcfc;
-  font-family: ‘Noto Sans TC’, sans-serif; }
+  background-color: #edebe6;
+  font-family: ‘Noto Sans TC’, sans-serif;
+  color: #707070; }
 
 #mainMenu {
-  background-color: #fcfcfc;
-  width: 94%;
-  margin-left: 3%;
-  margin-right: 3%;
+  background-color: #edebe6;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
   box-shadow: none;
   border: none;
   border-bottom: 1px solid #999; }
@@ -33,10 +34,10 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fcfcfc; }
+  background-color: #edebe6; }
 
 #content-container {
-  background-color: #fcfcfc;
+  background-color: #edebe6;
   width: 100%;
   padding: 30px 10%;
   display: inline-block; }
@@ -74,6 +75,19 @@ body {
   @media screen and (max-width: 768px) {
     .my-content {
       padding-left: 10px; } }
+
+.center-wrapper {
+  display: flex;
+  justify-content: center; }
+
+.two-button-container {
+  display: flex;
+  max-width: 768px;
+  width: 100%;
+  justify-content: space-around; }
+  @media screen and (max-width: 768px) {
+    .two-button-container {
+      justify-content: center; } }
 
 .color-lighter {
   color: #555; }
