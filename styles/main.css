@@ -235,11 +235,16 @@ a.greenlink {
     @media screen and (max-width: 768px) {
       .contest_btns a {
         border-left: 1px solid #707070; } }
+  .contest_btns a:hover {
+    text-decoration: underline; }
   .contest_btns .noline {
     border-left: none;
     border-right: none; }
     @media screen and (max-width: 768px) {
       .contest_btns .noline {
         border-right: 1px solid #707070; } }
+
+.ui.centered.card {
+  background: rgba(255, 255, 255, 0.3) !important; }
 
 /*# sourceMappingURL=main.css.map */

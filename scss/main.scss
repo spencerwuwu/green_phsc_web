@@ -281,6 +281,9 @@ a.greenlink {
       border-left: 1px solid $font-gray;
     }
   }
+  a:hover {
+    text-decoration: underline;
+  }
   .noline {
     border-left: none;
     border-right: none;
@@ -290,4 +293,6 @@ a.greenlink {
   }
 }
 
-
+.ui.centered.card {
+  background: rgba(255, 255, 255, 0.3) !important;
+}

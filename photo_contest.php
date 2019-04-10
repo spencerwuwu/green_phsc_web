@@ -13,7 +13,7 @@
 
     <div class="center-wrapper large-only">
       <div class="small-wrapper center-wrapper">
-        <div class="ui four column grid contest_btns">
+        <div class="ui four column grid contest_btns" style="width: 100%;">
           <div class="column">
             <a href="#method">參加辦法</a>
           </div>
@@ -148,7 +148,7 @@
   </div>
 
 
-  <!-- 我要報名! -->
+  <!-- 我要報名! 
   <div class="my-content">
     <div class="ui big button" data-iframe="true" id="open-website" data-src="https://docs.google.com/forms/d/e/1FAIpQLSdWUhs-qbP-_ccVaISyKZifnJ8mDCa8oHxA_JjNEstPB3bomA/viewform">
       我要報名!
@@ -157,6 +157,17 @@
   <script>
   $('#open-website').lightGallery({selector: 'this'});
   </script>
+  -->
+  <div class="my-content">
+    <div class="center-wrapper">
+      <div class="two-button-container large-only">
+        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button big green-bg">馬上追縱官方ig</a>
+      </div>
+      <div class="two-button-container small-only">
+        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button green-button">馬上追縱官方ig</a>
+      </div>
+    </div>
+  </div>
 
   <div class="my-content">
   </div>

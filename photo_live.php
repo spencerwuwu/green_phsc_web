@@ -1,5 +1,6 @@
 <?php include("header.php"); ?>
 
+<div id="body-container">
 <!-- Content -->
 <div id="content-container">
 
@@ -86,4 +87,9 @@
 <?php
    $footer = file_get_contents('footer.html');
    echo $footer;
+?>
+</div>
+<?php
+   $ending = file_get_contents('ending.html');
+   echo $ending;
 ?>
