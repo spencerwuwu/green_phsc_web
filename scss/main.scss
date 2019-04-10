@@ -6,6 +6,7 @@ body {
   background-color: $bg-white;
   font-family: ‘Noto Sans TC’, sans-serif;
   color: $font-gray;
+  display: inline-grid;
   a {
     color: $font-gray;
   }
@@ -57,17 +58,30 @@ body {
   }
 }
 
-.medium.text {
-  font-size: 16px;
+.normal.text {
+  font-size: 1.2em;
+  line-height: 1.1em;
   @media #{$small-device} {
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1.1em;
+  }
+}
+
+.medium.text {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  @media #{$small-device} {
+    font-size: 1.3em;
+    line-height: 1.2em;
   }
 }
 
 .large.text {
-  font-size: 22px;
+  font-size: 1.6em;
+  line-height: 1.5em;
   @media #{$small-device} {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    line-height: 1.4em;
   }
 }
 
@@ -92,12 +106,31 @@ body {
   }
 }
 
+.secondary-container {
+  width: 100%;
+  padding: 0 10%;
+  display: inline-block;
+  @media #{$small-device} {
+    padding: 0 5%;
+  }
+}
+
 .my-header {
   display: flex;
   width: 100%;
   text-transform: capitalize;
   font-variant: small-caps;
   font-size: 1.7em;
+}
+
+.my-centerheader {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: 550;
+  margin: 20px 0;
 }
 
 .my-subheader {
@@ -111,6 +144,10 @@ body {
   padding-bottom: 6px;
 }
 
+.subheader{
+  margin: 1.2em 0 0.8em 0;
+}
+
 .tab {
   padding-left: 20px;
 }
@@ -119,8 +156,15 @@ body {
   margin-top: 20px;
   display: inline-block;
   width: 100%;
-  padding-bottom: 30px;
+  padding: 0 5% 30px 5%;
   font-size: 1.2em;
+  @media #{$small-device} {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
 }
 
 .center-wrapper {
@@ -170,9 +214,9 @@ body {
   }
   img {
     margin-right: 3px;
-    height: 24px;
+    height: 1.5em;
     @media #{$small-device} {
-      height: 1.1em;
+      height: 1.4em;
     }
   }
 }

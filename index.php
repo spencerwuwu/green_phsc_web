@@ -49,3 +49,7 @@
    echo $footer;
 ?>
 </div>
+<?php
+   $ending = file_get_contents('ending.html');
+   echo $ending;
+?>
