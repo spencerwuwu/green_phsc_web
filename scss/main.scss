@@ -5,14 +5,42 @@
 body {
   background-color: $bg-white;
   font-family: ‘Noto Sans TC’, sans-serif;
+  letter-spacing: 0.6px;
+  font-weight: 450;
   color: $font-gray;
   display: inline-grid;
   a {
     color: $font-gray;
+    letter-spacing: 0.6px;
+    font-weight: 450;
   }
   a:hover {
     color: $font-gray;
     text-shadow: 1px 1px rgba(9,9,9,0.6);
+  }
+  li {
+    letter-spacing: 0.6px;
+    font-weight: 450;
+  }
+}
+
+.medium.text {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  @media #{$small-device} {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+}
+
+.large.text {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  @media #{$small-device} {
+    font-size: 1.5em;
+    line-height: 1.4em;
   }
 }
 
@@ -27,6 +55,9 @@ body {
     color: $bg-white;
     text-shadow: 1px 1px rgba(9,9,9,0.6);
   }
+  .my-centerheader {
+    text-shadow: 2px 2px rgba(20,20,20,0.1);
+  }
 }
 
 .yellow-bg {
@@ -40,6 +71,9 @@ body {
     color: $bg-white;
     text-shadow: 1px 1px rgba(9,9,9,0.6);
   }
+  .my-centerheader {
+    text-shadow: 2px 2px rgba(20,20,20,0.1);
+  }
 }
 
 #mainMenu {
@@ -47,41 +81,11 @@ body {
   width: 100%;
   padding-left: 3%;
   padding-right: 3%;
-  //width: 94%;
-  //margin-left: 3%;
-  //margin-right: 3%;
   box-shadow: none;
   border: none;
   border-bottom: 1px solid $font-gray;
   @media #{$small-device} {
     padding-left: 0;
-  }
-}
-
-.normal.text {
-  font-size: 1.2em;
-  line-height: 1.1em;
-  @media #{$small-device} {
-    font-size: 1.2em;
-    line-height: 1.1em;
-  }
-}
-
-.medium.text {
-  font-size: 1.4em;
-  line-height: 1.3em;
-  @media #{$small-device} {
-    font-size: 1.3em;
-    line-height: 1.2em;
-  }
-}
-
-.large.text {
-  font-size: 1.6em;
-  line-height: 1.5em;
-  @media #{$small-device} {
-    font-size: 1.5em;
-    line-height: 1.4em;
   }
 }
 
@@ -129,8 +133,9 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-variant: small-caps;
-  font-weight: 550;
+  font-weight: 700;
   margin: 20px 0;
+  text-shadow: 2px 2px rgba(200,200,200,0.1);
 }
 
 .my-subheader {
@@ -158,9 +163,11 @@ body {
   width: 100%;
   padding: 0 5% 30px 5%;
   font-size: 1.2em;
+  line-height: 1.2em;
   @media #{$small-device} {
     font-size: 1em;
     padding-bottom: 10px;
+    line-height: 1em;
   }
   li {
     margin-bottom: 10px;
@@ -176,7 +183,7 @@ body {
 
 .small-wrapper {
   width: 100%;
-  display: flex;
+  display: inline-block;
   max-width: 768px;
 }
 
@@ -205,7 +212,6 @@ body {
   display: flex;
   border-top: 1px solid $font-gray;
   justify-content: center;
-  margin-top: 20px;
   padding: 30px 0;
   span {
     display: flex;
@@ -240,13 +246,13 @@ body {
 .contest-header{
   width: 100%;
   margin-top: 40px;
-  padding: 60px 7% 10px 7%;
+  padding: 60px 7% 0 7%;
   display: inline-block;
-  font-size: 1.8em;
-  line-height: 1.5em;
-  font-weight: 550;
+  font-size: 2em;
+  line-height: 1.6em;
+  font-weight: 700;
   @media #{$small-device} {
-    padding: 50px 5% 10px 5%;
+    padding: 50px 5% 0 5%;
     font-size: 1.4em;
     line-height: 1.4em;
   }
