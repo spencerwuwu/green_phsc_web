@@ -13,7 +13,7 @@ body {
     font-weight: 450; }
   body a:hover {
     color: #707070;
-    text-shadow: 1px 1px rgba(9, 9, 9, 0.6); }
+    text-shadow: 1px 1px rgba(200, 200, 200, 0.3); }
   body li {
     letter-spacing: 0.6px;
     font-weight: 450; }
@@ -146,6 +146,12 @@ body {
       line-height: 1em; } }
   .my-content li {
     margin-bottom: 10px; }
+
+a.greenlink {
+  font-weight: 700;
+  color: #2d4e4b; }
+  a.greenlinkhover {
+    color: #707070; }
 
 .center-wrapper {
   width: 100%;

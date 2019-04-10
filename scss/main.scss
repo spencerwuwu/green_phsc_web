@@ -1,26 +1,27 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import "common/breakpoints";
 @import "common/color";
+@import "common/font";
 
 body {
   background-color: $bg-white;
   font-family: ‘Noto Sans TC’, sans-serif;
   letter-spacing: 0.6px;
-  font-weight: 450;
+  font-weight: $normal;
   color: $font-gray;
   display: inline-grid;
   a {
     color: $font-gray;
     letter-spacing: 0.6px;
-    font-weight: 450;
+    font-weight: $normal;
   }
   a:hover {
     color: $font-gray;
-    text-shadow: 1px 1px rgba(9,9,9,0.6);
+    text-shadow: 1px 1px rgba(200,200,200,0.3);
   }
   li {
     letter-spacing: 0.6px;
-    font-weight: 450;
+    font-weight: $normal;
   }
 }
 
@@ -133,7 +134,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-variant: small-caps;
-  font-weight: 700;
+  font-weight: $bold;
   margin: 20px 0;
   text-shadow: 2px 2px rgba(200,200,200,0.1);
 }
@@ -171,6 +172,14 @@ body {
   }
   li {
     margin-bottom: 10px;
+  }
+}
+
+a.greenlink {
+  font-weight: $bold;
+  color: $my-green;
+  &hover {
+    color: $font-gray;
   }
 }
 

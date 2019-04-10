@@ -102,7 +102,7 @@
 四、報名方式
     </p>
     <p class="tab">
-1. 追蹤再生能源資訊網的Instagram 帳號：@ boeenergy （https://www.instagram.com/boeenergy/）
+1. 追蹤再生能源資訊網的Instagram 帳號：<a class="greenlink" href="https://www.instagram.com/boeenergy/" target="_tab">@boeenergy</a>
     </p>
     <p class="tab">
 2. 將拍攝照片上傳至參賽Instagram帳號，同時貼文內需包含：作品名稱、50-200字內作品理念簡述、參賽標籤（參閱第3點）、標註@boeenergy可完成參賽報名。（參賽者須將帳號設為公開）
