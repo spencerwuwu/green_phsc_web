@@ -1,17 +1,16 @@
 <div class="ui fixed borderless main menu" id="mainMenu">
 
   <div class="left menu">
-    <div class="header item">
-      <h2>
-        綠能共創網
+    <a class="header item" href="/index.php">
+      <h2 class="indexbtn">
+      綠能共創網
       </h2>
-    </div>
+    </a>
   </div>
 
-  <div class="right menu large-only">
-    <a class="item" href="/">首頁</a>
+  <div class="right menu large-only indexbtn">
 
-    <div class="ui pointing dropdown link item" id="introDropdown" onClick="window.location.assign('/index.php');" >
+    <div class="ui pointing dropdown link item" id="introDropdown" onClick="window.location.assign('/contest.php');" >
       <span class="text">2019 綠攝影劇</span>
       <i class="dropdown icon"></i>
       <div class="menu">
@@ -22,7 +21,7 @@
     </div>
 
     <div class="ui pointing dropdown link item" id="showDropdown">
-      <span class="text">能源線上展</span>
+      <span class="text">綠能創意線上展</span>
       <i class="dropdown icon"></i>
       <div class="menu">
         <a class="item" href="show_2015.php">2015</a>
@@ -35,34 +34,35 @@
       <span class="text">關於我們</span>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <a href="about.php" class="item">關於我們</a>
+        <a href="/about.php" class="item">關於我們</a>
         <a href="https://www.re.org.tw/default.asp" class="item">再生能源資訊網</a>
       </div>
     </div>
 
   </div>
 
-  <div class="right menu small-only">
+  <div class="right menu small-only indexbtn">
     <div class="ui dropdown icon item" id="smallMenuBtn">
       <i class="bars large icon"></i>
       <div class="menu">
 
-        <a class="item" href="index.html">首頁</a>
+        <a class="item" href="/">首頁</a>
 
         <div class="divider"></div>
-        <a href="" class="header">2019 綠攝影劇</a>
-        <a class="item" href="photo_contest.html">攝影比賽</a>
-        <a class="item" href="script_contest.html">劇本比賽</a>
-        <a class="item" href="photo_live.html">即時賽況</a>
+        <a href="/contest.php" class="header">2019 綠攝影劇</a>
+        <a class="item" href="/photo_contest.php">攝影比賽</a>
+        <a class="item" href="/script_contest.php">劇本比賽</a>
+        <a class="item" href="/photo_live.php">即時賽況</a>
 
         <div class="divider"></div>
-        <a href="" class="header">能源線上展</a>
-        <a href="" class="item">2015</a>
-        <a href="" class="item">2018</a>
-        <a href="" class="item">2019</a>
+        <a class="header">綠能創意線上展</a>
+        <a class="item" href="show_2015.php">2015</a>
+        <a class="item" href="show_2018.php">2018</a>
+        <a class="item" href="show_2019.php">2019</a>
 
         <div class="divider"></div>
-        <a class="item" href="gallery.html">歷年作品</a>
+        <a href="/about.php" class="item">關於我們</a>
+        <a href="https://www.re.org.tw/default.asp" class="item">再生能源資訊網</a>
       </div>
     </div>
   </div>

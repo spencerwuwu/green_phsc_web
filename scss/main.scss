@@ -25,6 +25,13 @@ body {
   }
 }
 
+.indexbtn {
+  color: $font-gray;
+  a {
+    color: $font-gray !important;
+  }
+}
+
 .medium.text {
   font-size: 1.4em;
   line-height: 1.3em;
@@ -61,6 +68,11 @@ body {
   }
 }
 
+.green-emphsis {
+  color: $my-green;
+  font-weight: $bold;
+}
+
 .yellow-bg {
   background: $my-yellow !important;
   color: $bg-white !important;
@@ -75,6 +87,11 @@ body {
   .my-centerheader {
     text-shadow: 2px 2px rgba(20,20,20,0.1);
   }
+}
+
+.yellow-emphsis {
+  color: $my-yellow;
+  font-weight: $bold;
 }
 
 #mainMenu {
@@ -93,7 +110,7 @@ body {
 #body-container {
   display: inline-block;
   position: absolute;
-  top: 60px;
+  top: 58px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -146,7 +163,7 @@ body {
   font-variant: small-caps;
   font-size: 1.2em;
   margin-bottom: 10px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid $font-gray;
   padding-bottom: 6px;
 }
 
@@ -172,6 +189,12 @@ body {
   }
   li {
     margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+  table, th, td {
+    background: none !important;
+    color: $font-gray !important;
   }
 }
 
@@ -181,6 +204,10 @@ a.greenlink {
   &hover {
     color: $font-gray;
   }
+}
+
+.expandbtn {
+  cursor: pointer;
 }
 
 .center-wrapper {

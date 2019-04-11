@@ -76,7 +76,7 @@
 二、參賽資格
     </p>
     <p class="tab">
-1. 不限年齡，需具有中華民國民身分證之國民或中華民國外僑居留證之外籍人士。
+1. 不限年齡，需為具有中華民國身分證之國民。
     </p>
     <p class="tab">
 2. 每位參賽者總上限投稿件數為10件作品，須為尚未發表、且未參加其他競賽之作品。
@@ -97,6 +97,9 @@
     <p class="tab">
 3. 再生能源應用（如：自製風力發電機…等日常生活中的小巧思）
     </p>
+    <p class="tab">
+4. 再生能源相關主題
+    </p>
 
     <p class="medium text subheader">
 四、報名方式
@@ -105,10 +108,11 @@
 1. 追蹤再生能源資訊網的Instagram 帳號：<a class="greenlink" href="https://www.instagram.com/boeenergy/" target="_tab">@boeenergy</a>
     </p>
     <p class="tab">
-2. 將拍攝照片上傳至參賽Instagram帳號，同時貼文內需包含：作品名稱、50-200字內作品理念簡述、參賽標籤（參閱第3點）、標註@boeenergy可完成參賽報名。（參賽者須將帳號設為公開）
+2. 將拍攝照片上傳至參賽Instagram帳號，同時貼文內需包含：作品名稱、50-200字內作品理念簡述、參賽標籤（參閱第3點）、標註<span class="green-emphsis">@boeenergy</span> 即可完成參賽報名。（參賽者須將帳號設為公開）
     </p>
     <p class="tab">
-3. 參賽標籤(#hashtag)：#綠能攝影
+3. 參賽標籤(#hashtag)：<span class="green-emphsis">#綠能攝影</span> (必須在貼文中顯示)<br/>
+其他參考標籤：<span class="green-emphsis">#綠攝影劇 #再生能源 #能源轉型 #再生能源生活圈 #TAIWAN_RE</span> ...等
     </p>
     <p class="tab">
 4. 若無Instagram帳號之參賽者，可將照片作品連同第二點之徵件內文（作品名稱、50-200字內作品理念簡述），以檔名⟪ 2019綠攝影劇創作_攝影組_作者名⟫ 寄到官方信箱re.cmpe@gmail.com，將透過非公開虛擬帳號協助刊登供評審審查。
@@ -122,7 +126,22 @@
     <div class="my-centerheader large text" id="rules">
       作品規範
     </div>
-    <br>
+    <p class="tab">
+    </p>
+1. 本賽初選以Instagram上傳報名，無預設作品檔案大小。唯參賽作品入圍後，須提供檔案大小1.5MB以上20MB以下與Instagram頁面相同之作品，入圍後繳交檔案格式為JPEG或JPG，作品單邊不得小於2,000pixels、解析度不得低於144dpi。
+    <p class="tab">
+    </p>
+2. 投稿作品以未曾公開發表者為限。公開發表者定義：平面出版、公開展覽、投稿過至線上販售之圖庫或參加其他攝影比賽公開發表者。但發表於Facebook、個人部落格、網路論壇者不在此限。
+    <p class="tab">
+    </p>
+3. 參賽作品可適度調整亮度、對比、色調、銳利度、飽和度、裁切、拉直、修補雜點入塵、轉為單色調或黑白等。（為確保符合第一點之作品規範，不建議使用會壓縮檔案畫質之修圖軟體，例如：Instagram內建編修照片功能）
+    <p class="tab">
+    </p>
+4. 不得使用軟體合成、疊圖、無中生有加工（如：邊框、留邊、附加文字，浮水印及簽名檔等）；相機重曝功能不在此限。唯主辦單位有疑議時需提出拍攝原始檔案格式（EXIF資訊）證明，主辦單位得全權判定作品所採用的數位後製是否可接受。
+    <p class="tab">
+    </p>
+5. 同一張作品不得以重製、裁切、翻轉作品等方式重複投稿。
+    </p>
   </div>
 
 
@@ -132,9 +151,51 @@
     <div class="my-centerheader large text" id="process">
       評選流程
     </div>
-    <p class="">
-    .....
+    <p class="tab">
+      本賽共分兩階段評選，初審結果公布時間為2019年7月19日，得獎作品公布於2019年8月15日
     </p>
+    <p class="tab">
+1. 初審階段會依據再生能源主題及拍攝意義傳達、構圖技巧等項目，請三位專業評審進行作品線上評選，挑選100件作品進入複審。未入圍複審階段之參賽者作品將不另行通知。
+    </p>
+    <p class="tab">
+2. 入圍複審的參賽者，會收Instagram帳號「@boeenergy」透過Instagram Direct發送的通知訊息，請按照通知在指定期限內，將入圍作品原始檔案(無壓縮)回傳，若發送通知後五天內未收到任何回覆，即視為棄權。
+    </p>
+    <p class="tab">
+3. 複審階段將邀請攝影、再生能源領域等五位專業評審，參賽者姓名一律不予標示，以示公平。
+    </p>
+    <p class="tab">
+4. 專家評審評分重點：
+    </p>
+
+    <div class="tab center-wrapper">
+      <div class="small-wrapper" style="">
+<table class="ui celled table">
+  <thead>
+    <tr><th>評分項目</th>
+    <th>百分比</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>再生能源主題表現</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>構圖技巧</td>
+      <td>30%</td>
+    </tr>
+    <tr>
+      <td>攝影創意、技巧表現</td>
+      <td>30%</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><th>總百分比</th>
+    <th>100%</th>
+  </tr></tfoot>
+</table>
+      </div>
+    </div>
+
   </div>
 
   <!-- 獎勵辦法 -->
@@ -142,11 +203,35 @@
     <div class="my-centerheader large text" id="prize">
       獎勵辦法
     </div>
-    <p class="">
-    .....
+    <p class="tab">
+● 金賞1名：GO PRO HERO7 Silver 4K防水攝影機、獎狀乙份
+    </p>
+    <p class="tab">
+● 銀賞1名：ASUS USB掌上式行動電源 LED投影機、獎狀乙份
+    </p>
+    <p class="tab">
+● 銅賞1名：Canon PV-123 迷你相片印表機、獎狀乙份
+    </p>
+    <p class="tab">
+● 優選賞3名：Transcend 創見 1TB 防震外接硬碟、獎狀乙份
+    </p>
+    <p class="tab">
+    <br/>
+    </p>
+    <p class="tab">
+1. 得獎名單將於2019年8月15日公告，並由主辦單位另行通知領獎時間。
+    </p>
+    <p class="tab">
+2. 得獎者後續將以E-mail、臉書/IG訊息及電話聯繫，核對資料正確後將獎品郵遞寄出。
+    </p>
+    <p class="tab">
+3. 得獎者經主辦單位主動通知後，請提供身分證及相關寄送資料之電子檔，寄至re.cmpe@gmail.com，以供核對。
     </p>
   </div>
 
+  <div class="my-content">
+    <a class="greenlink" href="https://drive.google.com/file/d/1l5T91_lqxGMkW07COXbcVIgwcqp2Mf1z/view" target="_tab">下載完整簡章</a>
+  </div>
 
   <!-- 我要報名! 
   <div class="my-content">
@@ -179,10 +264,12 @@
 
   <!-- 參賽須知 -->
   <div class="my-content">
-    <div class="my-centerheader large text" id="prize">
-      參賽須知
+    <div class="my-centerheader medium text" id="attend-btn">
+      <p class=" expandbtn">
+      參賽須知+
+      </p>
     </div>
-    <ol>
+    <ol id="attend-content">
       <li>
 參賽作品一律不退件，參加者須保證所提供之作品無侵害他人著作權之情事，若有任何第三者主張受侵害之事，經查證屬實，一律取消資格及獎金；如引起侵權爭議，其相關法律責任一概由參賽者自行負責，與主辦單位無關。（未滿20歲參賽者需經得法定代理人同意參賽並負擔相關責任。）
       </li>
@@ -211,10 +298,10 @@
 
   <!-- 作品著作權聲明 -->
   <div class="my-content">
-    <div class="my-centerheader large text" id="prize">
-      作品著作權聲明
+    <div class="my-centerheader expandbtn medium text" id="author-btn">
+      作品著作權聲明+
     </div>
-    <ol>
+    <ol id="author-content">
       <li>
 參賽者須保證所投稿作品為原創，不得有仿冒、抄襲、侵害他人著作權或違反善良風俗之情事，應確保擁有作品著作財產權並有權揭露投稿作品之內容，且未曾獲得國內外競賽任何獎項及未公開發表之作品。
       </li>
@@ -233,6 +320,34 @@
     </ol>
   </div>
 </div>
+
+<script>
+author_on = 0;
+attend_on = 0;
+$("#attend-content").slideUp();
+$("#author-content").slideUp();
+
+$("#attend-btn").click(function() {
+  if (attend_on == 0) {
+    $("#attend-content").slideDown();
+    attend_on = 1;
+  } else {
+    $("#attend-content").slideUp();
+    attend_on = 0;
+  }
+});
+
+$("#author-btn").click(function() {
+  if (author_on == 0) {
+    $("#author-content").slideDown();
+    author_on = 1;
+  } else {
+    $("#author-content").slideUp();
+    author_on = 0;
+  }
+});
+
+</script>
 
 <?php
    $footer = file_get_contents('footer.html');
