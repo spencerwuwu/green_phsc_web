@@ -13,5 +13,11 @@ $( window ).resize(function() {
   $(".image-container").css("height", $("#goldImg").height());
 });
 
-$(".image-container").lightGallery();
-$(".more-image-container").lightGallery();
+$(".image-container").lightGallery({
+  thumbnail: false,
+  controls: false
+});
+$(".more-image-container").lightGallery({
+  thumbnail: false,
+  controls: false
+});

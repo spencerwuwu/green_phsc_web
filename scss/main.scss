@@ -62,6 +62,22 @@ body {
   }
 }
 
+.blue-bg {
+  background: $my-blue !important;
+  color: $bg-white !important;
+  border-color: $bg-white;
+  a {
+    color: $bg-white;
+  }
+  a:hover {
+    color: $bg-white;
+    text-shadow: 1px 1px rgba(9,9,9,0.6);
+  }
+  .my-centerheader {
+    text-shadow: 2px 2px rgba(20,20,20,0.1);
+  }
+}
+
 .green-bg {
   background: $my-green !important;
   color: $bg-white !important;
@@ -133,6 +149,7 @@ body {
   width: 100%;
   padding: 30px 10%;
   display: inline-block;
+  position: relative;
   @media #{$small-device} {
     padding: 30px 5%;
   }
@@ -159,22 +176,60 @@ body {
   display: inline-block;
   width: 100%;
   text-align: center;
-  text-transform: capitalize;
   font-variant: small-caps;
   font-weight: $bold;
   margin: 20px 0;
   text-shadow: 2px 2px rgba(200,200,200,0.1);
+  img {
+    margin-right: 10px;
+    display: inline;
+    height: 45px;
+    @media #{$small-device} {
+      height: 35px;
+    }
+  }
 }
 
-.my-subheader {
+
+.my-iconheader-center {
   display: flex;
+  align-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  img {
+    margin-right: 10px;
+    display: inline;
+    height: 45px;
+    @media #{$small-device} {
+      height: 35px;
+    }
+  }
+}
+
+.my-iconheader-wrapper {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  img {
+    margin-right: 10px;
+    display: inline;
+    height: 45px;
+    @media #{$small-device} {
+      height: 35px;
+    }
+  }
+}
+
+.my-iconheader {
+  display: inline;
   width: 100%;
   text-transform: capitalize;
   font-variant: small-caps;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  border-bottom: 1px solid $font-gray;
-  padding-bottom: 6px;
+  border-bottom: 2px solid $font-gray;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
   font-weight: $bold;
 }
 
@@ -271,6 +326,7 @@ a.greenlink {
 
 #footer {
   width: 100%;
+  position: relative;
   display: flex;
   border-top: 1px solid $font-gray;
   justify-content: center;
@@ -350,31 +406,25 @@ a.greenlink {
   background: rgba(255, 255, 255, 0.3) !important;
 }
 
-#goldDes {
-  overflow-y: scroll;
-  width: 100%;
-}
-
 .image-container {
   margin-top: 15px;
+  padding: 0 0;
   width: 100%;
   height: 75%;
   overflow: hidden;
-  background: none;
-  display: flex;
-  justify-content: center;
+  background: $my-blue;
+  display: inline-grid;
   cursor: pointer;
-  transition: 1s;
   img {
-    transition: 1s;
-    height: 100%;
-    width: auto;
+    //height: 100%;
+    //width: auto;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
   }
   &:hover {
-    background: rgba(0,0,0,0.4);
+    background: $my-blue;
     img {
-      height: 100%;
-      width: auto;
       opacity: 0.8;
     }
   }
@@ -385,15 +435,32 @@ a.greenlink {
   width: 100%;
   display: flex;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.5s;
   img {
     width: auto;
   }
   &:hover {
-    background: rgba(0,0,0,0.8);
+    background: $my-blue;
     img {
       height: 100%;
       width: auto;
+      opacity: 0.6;
+    }
+  }
+}
+
+.more-image-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+  img {
+    width: 100%;
+  }
+  &:hover {
+    background: $my-blue;
+    img {
       opacity: 0.6;
     }
   }
@@ -403,6 +470,7 @@ a.greenlink {
 .show-two-wrapper {
   width: 100%;
   display: flex;
+  position: relative;
   justify-content: space-around;
   @media #{$show-small-device} {
     display: inline-block;
@@ -417,10 +485,31 @@ a.greenlink {
     width: 100%;
   }
 }
-.show-three-content {
-  width: 32%;
+
+.show-three-wrapper {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.show-three-content-large {
+  margin: 20px 0;
+  width: 30%;
   display: inline-block;
   @media #{$show-small-device} {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+}
+.show-three-content-small {
+  width: 40%;
+  display: inline-block;
+  @media #{$show-large-device} {
+    display: none;
+  }
+  img {
     width: 100%;
   }
 }

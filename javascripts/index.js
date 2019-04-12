@@ -7,7 +7,7 @@ function set_height() {
 
 $(document).ready(function () {
   set_height();
-}
+});
 
 $( window ).resize(function() {
   set_height();

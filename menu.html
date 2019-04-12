@@ -25,7 +25,14 @@
       <i class="dropdown icon"></i>
       <div class="menu">
         <a class="item" href="show_2015.php">2015</a>
-        <a class="item" href="show_2018.php">2018</a>
+        <div class="ui left pointing dropdown link item">
+          <i class="dropdown icon"></i> 2018
+          <div class="menu">
+            <a class="item" href="show_2018_big.php">社會組</a>
+            <a class="item" href="show_2018_small.php">學生組</a>
+          </div>
+        </div>
+
         <a class="item" href="show_2019.php">2019</a>
       </div>
     </div>
@@ -49,18 +56,20 @@
         <a class="item" href="/">首頁</a>
 
         <div class="divider"></div>
-        <a href="/contest.php" class="header">2019 綠攝影劇</a>
+        <h4 class="ui header">2019 綠攝影劇</h4>
         <a class="item" href="/photo_contest.php">攝影比賽</a>
         <a class="item" href="/script_contest.php">劇本比賽</a>
         <a class="item" href="/photo_live.php">即時賽況</a>
 
         <div class="divider"></div>
-        <a class="header">綠能創意線上展</a>
+        <h4 class="ui header">綠能創意線上展</h4>
         <a class="item" href="show_2015.php">2015</a>
-        <a class="item" href="show_2018.php">2018</a>
+        <a class="item" href="show_2018_big.php">2018 社會組</a>
+        <a class="item" href="show_2018_small.php">2018 學生組</a>
         <a class="item" href="show_2019.php">2019</a>
 
         <div class="divider"></div>
+        <h4 class="ui header">關於我們</h4>
         <a href="/about.php" class="item">關於我們</a>
         <a href="https://www.re.org.tw/default.asp" class="item">再生能源資訊網</a>
       </div>
@@ -71,5 +80,6 @@
   <script>  $("#showDropdown").dropdown({on: 'hover'}); </script>
   <script>  $("#aboutDropdown").dropdown({on: 'hover'}); </script>
   <script>  $("#smallMenuBtn").dropdown(); </script>
+  <script>  $("#smallsubMenuBtn").dropdown(); </script>
 
 </div>

@@ -1,11 +1,12 @@
 <?php include("header.php"); ?>
-<div id="body-container">
+
+<div class="contest-header blue-bg">
+  2018 綠意漫延 綠能原創四格漫畫競賽 </br>
+  Renewable Energy Comic Competition 2018
+</div>
+<img src="images/bluebox.png" style="position: relative; width: 100%; display: inline-block;"/>
+<div id="content-container">
 <!-- Content -->
-  <div class="my-content">
-    <div class="my-centerheader medium text" id="method">
-      2018 綠意漫延 綠能原創四格漫畫競賽<br/>
-    </div>
-  </div>
 
   <div class="my-content">
     <div class="show-two-wrapper">
@@ -16,8 +17,11 @@
         </div>
       </div>
       <div class="show-two-content">
-        <div class="my-subheader medium text" id="goldTopic">
-          金賞
+        <div class="my-iconheader-wrapper">
+          <img src="/images/golden.png"/>
+          <div class="my-iconheader medium text" id="goldTopic">
+            金賞
+          </div>
         </div>
         <div id="goldDes">
           <div class="righttab">
@@ -40,17 +44,19 @@
   </div>
 
   <div class="my-content">
-  </div>
-
-  <div class="my-content">
     <div class="show-two-wrapper">
       <div class="show-two-content">
         <div class="image-container">
           <img src="/images/2018/銀賞_風力發電-大風車.jpg" data-src="/images/2018/銀賞_風力發電-大風車.jpg">
         </div>
-        <div class="my-subheader medium text">
-          銀賞
+
+        <div class="my-iconheader-wrapper">
+          <img src="/images/silver.png"/>
+          <div class="my-iconheader medium text">
+            銀賞
+          </div>
         </div>
+
         <div>
           <div class="righttab">
             <p>
@@ -73,9 +79,14 @@
         <div class="image-container">
           <img src="/images/2018/銅賞_我的能源....jpg" data-src="/images/2018/銅賞_我的能源....jpg">
         </div>
-        <div class="my-subheader medium text">
-          銅賞
+
+        <div class="my-iconheader-wrapper">
+          <img src="/images/copper.png"/>
+          <div class="my-iconheader medium text">
+            銅賞
+          </div>
         </div>
+
         <div>
           <div class="righttab">
             <p>
@@ -102,38 +113,40 @@
 </div>
 
   <div class="my-content">
-    <div class="my-centerheader large text" id="method">
-      優勝賞
+
+    <div class="center-wrapper">
+      <div class="my-iconheader-center large text">
+        <img src="images/green.png" height="50px;"/>更多入圍作品
+      </div>
     </div>
-    <div class="show-two-wrapper more-image-container">
-      <div class="show-three-content">
-        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
-          <img src="/images/2018/銅賞_我的能源....jpg">
-        </div>
-        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
-          <img src="/images/2018/銅賞_我的能源....jpg">
-        </div>
+
+    <div class="show-three-wrapper">
+
+      <div class="show-three-content-large" id="large1" >
       </div>
-      <div class="show-three-content">
-        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
-          <img src="/images/2018/銅賞_我的能源....jpg">
-        </div>
+      <div class="show-three-content-large" id="large2" >
       </div>
-      <div class="show-three-content">
-        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
-          <img src="/images/2018/銅賞_我的能源....jpg">
-        </div>
+      <div class="show-three-content-large" id="large3" >
       </div>
+
+      <div class="show-three-content-small" id="small1">
+      </div>
+      <div class="show-three-content-small" id="small2">
+      </div>
+
+
     </div>
   </div>
+
+  <script src="javascripts/2018/2018-big.js"></script>
   <script src="javascripts/show.js"></script>
+</div>
 
   <!-- End of Content -->
 <?php
    $footer = file_get_contents('footer.html');
    echo $footer;
 ?>
-</div>
 <?php
    $ending = file_get_contents('ending.html');
    echo $ending;
