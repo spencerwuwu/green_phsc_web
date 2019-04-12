@@ -5,7 +5,9 @@ function set_height() {
   $("#youtube").css("height", height); 
 }
 
-set_height();
+$(document).ready(function () {
+  set_height();
+}
 
 $( window ).resize(function() {
   set_height();

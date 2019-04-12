@@ -1,0 +1,140 @@
+<?php include("header.php"); ?>
+<div id="body-container">
+<!-- Content -->
+  <div class="my-content">
+    <div class="my-centerheader medium text" id="method">
+      2018 綠意漫延 綠能原創四格漫畫競賽<br/>
+    </div>
+  </div>
+
+  <div class="my-content">
+    <div class="show-two-wrapper">
+
+      <div class="show-two-content" id="goldImg">
+        <div class="image-container">
+        <img src="/images/2018/金賞_北風與太陽2018.jpg" data-src="/images/2018/金賞_北風與太陽2018.jpg">
+        </div>
+      </div>
+      <div class="show-two-content">
+        <div class="my-subheader medium text" id="goldTopic">
+          金賞
+        </div>
+        <div id="goldDes">
+          <div class="righttab">
+            <p>
+  北風與太陽2018<br/>
+            </p>
+            <p>
+  翁瀅絢<br/>
+            </p>
+            </p>
+          </div>
+          <div class="mini text">
+            <p>
+  「北風與太陽」是個古老的寓言故事，如果把場景放到現代，會變成怎樣的一場競爭呢？運用現代科技將兩者的特殊能力轉換為電力，有了數據佐證，相信勝者可以贏得有憑有據、輸者也能敗得心服口服吧？但我想最後的勝利應該是屬於旅人。透過儲能系統將自然界的力量轉變為家電所需的動能，從此烈日酷晒或狂風呼嘯都不再是令人頭痛的問題；扭轉立場，主導能量流動的人類才是現代北風與太陽之爭最後的贏家！
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-content">
+  </div>
+
+  <div class="my-content">
+    <div class="show-two-wrapper">
+      <div class="show-two-content">
+        <div class="image-container">
+          <img src="/images/2018/銀賞_風力發電-大風車.jpg" data-src="/images/2018/銀賞_風力發電-大風車.jpg">
+        </div>
+        <div class="my-subheader medium text">
+          銀賞
+        </div>
+        <div>
+          <div class="righttab">
+            <p>
+      風力發電-大風車<br/>
+            </p>
+            <p>
+      陳禹光<br/>
+            </p>
+            </p>
+          </div>
+          <div class="mini text">
+            <p>
+      為了有電，忙碌的小老鼠每天都努力地踩著滾輪來發電，me兔看到了這個情況想出了一個好點子!!!!!可以發電又很環保的方式!!!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="show-two-content">
+        <div class="image-container">
+          <img src="/images/2018/銅賞_我的能源....jpg" data-src="/images/2018/銅賞_我的能源....jpg">
+        </div>
+        <div class="my-subheader medium text">
+          銅賞
+        </div>
+        <div>
+          <div class="righttab">
+            <p>
+      我的能源…<br/>
+            </p>
+            <p>
+      周俊宏<br/>
+            </p>
+            </p>
+          </div>
+          <div class="mini text">
+            <p>
+      我所選的主題是綠科技的再生能源科普知識去創作,因4格漫畫需在短短的4個格子裡,表現出所要呈現的知識,再加入一點趣味!所以我將前面三格,帶入目前可再生能源的工具,並敘述如何產生再生能源的方式,最後一格我用反差趣味的，凸顯現代人在苦悶的生活裡,因一個簡單的小確幸,卻讓生活裡產生一些『動力』,使生活變的更有趣味。
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div id="caption2" style="display:none">
+    <h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>
+</div>
+
+  <div class="my-content">
+    <div class="my-centerheader large text" id="method">
+      優勝賞
+    </div>
+    <div class="show-two-wrapper more-image-container">
+      <div class="show-three-content">
+        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
+          <img src="/images/2018/銅賞_我的能源....jpg">
+        </div>
+        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
+          <img src="/images/2018/銅賞_我的能源....jpg">
+        </div>
+      </div>
+      <div class="show-three-content">
+        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
+          <img src="/images/2018/銅賞_我的能源....jpg">
+        </div>
+      </div>
+      <div class="show-three-content">
+        <div class="more-image" data-src="/images/2018/銅賞_我的能源....jpg" data-sub-html="#caption2">
+          <img src="/images/2018/銅賞_我的能源....jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="javascripts/show.js"></script>
+
+  <!-- End of Content -->
+<?php
+   $footer = file_get_contents('footer.html');
+   echo $footer;
+?>
+</div>
+<?php
+   $ending = file_get_contents('ending.html');
+   echo $ending;
+?>

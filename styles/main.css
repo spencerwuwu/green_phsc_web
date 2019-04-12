@@ -23,6 +23,15 @@ body {
   .indexbtn a {
     color: #707070 !important; }
 
+.mini.text {
+  font-size: 0.9em;
+  line-height: 0.9em;
+  letter-spacing: 1px; }
+  @media screen and (max-width: 768px) {
+    .mini.text {
+      font-size: 0.8em;
+      line-height: 0.8em; } }
+
 .medium.text {
   font-size: 1.4em;
   line-height: 1.3em;
@@ -134,13 +143,17 @@ body {
   width: 100%;
   text-transform: capitalize;
   font-variant: small-caps;
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   border-bottom: 1px solid #707070;
-  padding-bottom: 6px; }
+  padding-bottom: 6px;
+  font-weight: 700; }
 
 .subheader {
   margin: 1.2em 0 0.8em 0; }
+
+.righttab {
+  text-align: right; }
 
 .tab {
   padding-left: 20px; }
@@ -197,6 +210,14 @@ a.greenlink {
 
 @media screen and (min-width: 769px) {
   .small-only {
+    display: none !important; } }
+
+@media screen and (max-width: 768px) {
+  .show-large-only {
+    display: none !important; } }
+
+@media screen and (min-width: 769px) {
+  .show-small-only {
     display: none !important; } }
 
 #footer {
@@ -267,5 +288,68 @@ a.greenlink {
 
 .ui.centered.card {
   background: rgba(255, 255, 255, 0.3) !important; }
+
+#goldDes {
+  overflow-y: scroll;
+  width: 100%; }
+
+.image-container {
+  margin-top: 15px;
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  background: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s; }
+  .image-container img {
+    transition: 1s;
+    height: 100%;
+    width: auto; }
+  .image-container:hover {
+    background: rgba(0, 0, 0, 0.4); }
+    .image-container:hover img {
+      height: 100%;
+      width: auto;
+      opacity: 0.8; }
+
+.more-image {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  transition: 1s; }
+  .more-image img {
+    width: auto; }
+  .more-image:hover {
+    background: rgba(0, 0, 0, 0.8); }
+    .more-image:hover img {
+      height: 100%;
+      width: auto;
+      opacity: 0.6; }
+
+.show-two-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+  @media screen and (max-width: 768px) {
+    .show-two-wrapper {
+      display: inline-block; } }
+
+.show-two-content {
+  margin: 20px 0;
+  width: 45%;
+  display: inline-block; }
+  @media screen and (max-width: 768px) {
+    .show-two-content {
+      width: 100%; } }
+
+.show-three-content {
+  width: 32%;
+  display: inline-block; }
+  @media screen and (max-width: 768px) {
+    .show-three-content {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
