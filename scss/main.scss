@@ -32,6 +32,18 @@ body {
   }
 }
 
+#preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  .dimmer {
+    background-color: $bg-white !important;
+  }
+}
+
 .mini.text {
   font-size: 0.9em;
   line-height: 0.9em;
@@ -131,6 +143,7 @@ body {
   box-shadow: none;
   border: none;
   border-bottom: 1px solid $font-gray;
+  z-index: 1002;
   @media #{$small-device} {
     padding-left: 0;
   }

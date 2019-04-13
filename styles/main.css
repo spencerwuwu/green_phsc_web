@@ -23,6 +23,16 @@ body {
   .indexbtn a, .indexbtn .icon {
     color: #707070 !important; }
 
+#preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1001; }
+  #preloader .dimmer {
+    background-color: #edebe6 !important; }
+
 .mini.text {
   font-size: 0.9em;
   line-height: 0.9em;
@@ -103,7 +113,8 @@ body {
   padding-right: 3%;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #707070; }
+  border-bottom: 1px solid #707070;
+  z-index: 1002; }
   @media screen and (max-width: 768px) {
     #mainMenu {
       padding-left: 0; } }

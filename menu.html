@@ -83,3 +83,16 @@
   <script>  $("#smallsubMenuBtn").dropdown(); </script>
 
 </div>
+
+<div class="ui segment" id="preloader">
+  <div class="ui active inverted dimmer">
+    <div class="ui indeterminate text loader">Loading</div>
+  </div>
+  <p></p>
+</div>
+
+<script>
+  $(window).on('load', function(){
+   $('#preloader').fadeOut('slow');
+  });
+</script>
