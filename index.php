@@ -10,15 +10,21 @@
 
   <div class="my-content">
   </div>
+  <div class="my-content">
+  </div>
 
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container">
-        <a href="/contest.php" class="ui button big green-bg">2019 綠攝影劇創作比賽</a>
+        <a href="/contest.php" class="ui button big blue-bg">2019 綠攝影劇創作比賽</a>
       </div>
     </div>
   </div>
 
+  <div class="my-content">
+  </div>
+  <div class="my-content">
+  </div>
   <div class="my-content">
   </div>
 

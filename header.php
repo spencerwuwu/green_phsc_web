@@ -5,6 +5,9 @@
     <title>
       再生能源創作藝術
     </title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="javascripts/jquery-3.3.1.min.js"></script>
     <script src="semantic-ui/semantic.min.js"></script>

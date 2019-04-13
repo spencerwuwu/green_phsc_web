@@ -4,7 +4,7 @@ import json
 import os
 
 
-lines = os.popen("cat parse/01.txt").read().splitlines()
+lines = os.popen("cat parse/04.txt").read().splitlines()
 src_lists = []
 no = 0
 for line in lines:
@@ -22,6 +22,25 @@ for line in lines:
         src_lists.append({"img": img, "name": name, "author": author, "des": des})
         continue
     no += 1
+
+lists = []
+list1 = []
+list2 = []
+list3 = []
+lists.append(list1)
+lists.append(list2)
+lists.append(list3)
+
+no = 0
+for thing in src_lists:
+    lists[no].append(thing)
+    if no is 2:
+        no = 0
+    else:
+        no += 1
+
+for thing in lists:
+    print(json.dumps(thing))
 
 lists = []
 list1 = []

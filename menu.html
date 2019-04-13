@@ -20,11 +20,18 @@
       </div>
     </div>
 
+        <!--
     <div class="ui pointing dropdown link item" id="showDropdown">
       <span class="text">綠能創意線上展</span>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <a class="item" href="show_2015.php">2015</a>
+        <div class="ui left pointing dropdown link item">
+          <i class="dropdown icon"></i> 2015
+          <div class="menu">
+            <a class="item" href="show_2015_poster.php">海報與logo</a>
+            <a class="item" href="show_2015_photo.php">攝影</a>
+          </div>
+        </div>
         <div class="ui left pointing dropdown link item">
           <i class="dropdown icon"></i> 2018
           <div class="menu">
@@ -36,13 +43,44 @@
         <a class="item" href="show_2019.php">2019</a>
       </div>
     </div>
+        -->
+    <div class="browse item">
+      <span class="text">綠能創意線上展</span>
+      <i class="dropdown icon"></i>
+    </div>
+
+    <div class="ui flowing popup transition hidden" style="width: 300px;">
+      <div class="ui two column relaxed equal height divided grid">
+        <div class="column">
+          <h4 class="ui header">2015</h4>
+          <div class="ui link list">
+            <a class="item" href="show_2015_poster.php">海報與logo</a>
+            <a class="item" href="show_2015_photo.php">攝影</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link list">
+          <h4 class="ui header">2018</h4>
+            <a class="item" href="show_2018_big.php">社會組</a>
+            <a class="item" href="show_2018_small.php">學生組</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script>
+  $('.browse')
+  .popup({
+    inline     : true,
+    hoverable  : true,
+    position: 'bottom left',
+  });
+  </script>
 
     <div class="ui pointing dropdown link item" id="aboutDropdown">
       <span class="text">關於我們</span>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <a href="/about.php" class="item">關於我們</a>
-        <a href="https://www.re.org.tw/default.asp" class="item">再生能源資訊網</a>
+        <a href="https://www.re.org.tw/" target="_tab" class="item">再生能源資訊網</a>
       </div>
     </div>
 
@@ -63,15 +101,17 @@
 
         <div class="divider"></div>
         <h4 class="ui header">綠能創意線上展</h4>
-        <a class="item" href="show_2015.php">2015</a>
+        <a class="item" href="show_2015_poster.php">2015 海報與logo</a>
+        <a class="item" href="show_2015_photo.php">2015 攝影</a>
         <a class="item" href="show_2018_big.php">2018 社會組</a>
         <a class="item" href="show_2018_small.php">2018 學生組</a>
+        <!--
         <a class="item" href="show_2019.php">2019</a>
+        -->
 
         <div class="divider"></div>
         <h4 class="ui header">關於我們</h4>
-        <a href="/about.php" class="item">關於我們</a>
-        <a href="https://www.re.org.tw/default.asp" class="item">再生能源資訊網</a>
+        <a href="https://www.re.org.tw/" target="_tab" class="item">再生能源資訊網</a>
       </div>
     </div>
   </div>

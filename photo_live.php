@@ -9,8 +9,9 @@
     即時賽況
   </div>
   <div class="my-content">
+ <div class='embedsocial-instagram' data-ref="860007d61ef1e3b07bda580e5c7a273fa199610b"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
     <br/>
-
+    <!--
     <div class="ui three column doubling stackable grid">
       <div class="column">
         <div class="ui centered card">
@@ -73,23 +74,8 @@
       </div>
 
     </div>
+    -->
   </div>
-
-  <div class="my-content">
-<div id="instafeed"></div>
-  </div>
-
-
-<script type="text/javascript" src="/javascripts/instafeed.min.js"></script>
-
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'streetphotography',
-        clientId: '511e452620a24eb19c1d92d0bdddd1f1'
-    });
-    feed.run();
-</script>
 
 
 </div>
