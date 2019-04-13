@@ -76,7 +76,21 @@
   </div>
 
   <div class="my-content">
+<div id="instafeed"></div>
   </div>
+
+
+<script type="text/javascript" src="/javascripts/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'streetphotography',
+        clientId: '511e452620a24eb19c1d92d0bdddd1f1'
+    });
+    feed.run();
+</script>
+
 
 </div>
 

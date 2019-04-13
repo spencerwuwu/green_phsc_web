@@ -6,7 +6,7 @@
 </div>
 -->
 
-<iframe id="youtube" width="100%" src="https://www.youtube.com/embed/dIMwxr0Tfxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="youtube" width="100%" src="https://www.youtube.com/embed/dIMwxr0Tfxg?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <div class="my-content">
   </div>

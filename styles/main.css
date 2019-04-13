@@ -20,7 +20,7 @@ body {
 
 .indexbtn {
   color: #707070; }
-  .indexbtn a {
+  .indexbtn a, .indexbtn .icon {
     color: #707070 !important; }
 
 .mini.text {
@@ -79,7 +79,7 @@ body {
   font-weight: 700; }
 
 .yellow-bg {
-  background: #efbf46 !important;
+  background: #e3b643 !important;
   color: #edebe6 !important;
   border-color: #edebe6; }
   .yellow-bg a {
@@ -89,9 +89,11 @@ body {
     text-shadow: 1px 1px rgba(9, 9, 9, 0.6); }
   .yellow-bg .my-centerheader {
     text-shadow: 2px 2px rgba(20, 20, 20, 0.1); }
+  .yellow-bg ol {
+    text-shadow: 1px 1px rgba(150, 150, 150, 0.3); }
 
 .yellow-emphsis {
-  color: #efbf46;
+  color: #e3b643;
   font-weight: 700; }
 
 #mainMenu {
@@ -227,6 +229,12 @@ a.greenlink {
   font-weight: 700;
   color: #2d4e4b; }
   a.greenlinkhover {
+    color: #707070; }
+
+a.yellowlink {
+  font-weight: 700;
+  color: #e3b643; }
+  a.yellowlinkhover {
     color: #707070; }
 
 .expandbtn {

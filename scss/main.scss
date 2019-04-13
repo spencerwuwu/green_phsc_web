@@ -27,7 +27,7 @@ body {
 
 .indexbtn {
   color: $font-gray;
-  a {
+  a, .icon {
     color: $font-gray !important;
   }
 }
@@ -112,6 +112,9 @@ body {
   }
   .my-centerheader {
     text-shadow: 2px 2px rgba(20,20,20,0.1);
+  }
+  ol {
+    text-shadow: 1px 1px rgba(150,150,150,0.3);
   }
 }
 
@@ -270,6 +273,14 @@ body {
 a.greenlink {
   font-weight: $bold;
   color: $my-green;
+  &hover {
+    color: $font-gray;
+  }
+}
+
+a.yellowlink {
+  font-weight: $bold;
+  color: $my-yellow;
   &hover {
     color: $font-gray;
   }

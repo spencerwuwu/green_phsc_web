@@ -1,10 +1,10 @@
 <?php include("header.php"); ?>
 <!-- Content -->
-<div class="contest-header green-bg">
-  2019 綠攝影劇 _ 綠能攝影競賽 </br>
-  Renewable Energy Photography Competition 2019
+<div class="contest-header yellow-bg">
+  2019 綠攝影劇 _ 綠能劇本創作競賽 </br>
+  Renewable Energy Script Writing Competition 2019
 </div>
-<img src="images/greenbox.png" style="position: relative; width: 100%; display: inline-block;"/>
+<img src="images/yellowbox.png" style="position: relative; width: 100%; display: inline-block;"/>
 
 <div id="content-container">
 
@@ -79,7 +79,7 @@
 1. 不限年齡，需為具有中華民國身分證之國民。
     </p>
     <p class="tab">
-2. 每位參賽者總上限投稿件數為10件作品，須為尚未發表、且未參加其他競賽之作品。
+2. 每位參賽者總上限投稿件數為5件作品，須為尚未發表、且未參加其他競賽之作品。
     </p>
     <p class="tab">
 3. 參賽者須於規定之徵件期間內上傳參賽作品。
@@ -89,33 +89,17 @@
 三、徵件主題（至少涵蓋下列任一主題）
     </p>
     <p class="tab">
-1. 再生能源信手拈來（在生活中會看見的再生能源設施或應用，如太陽能充電站或熱水加熱器等）
-    </p>
-    <p class="tab">
-2. 再生能源特色景點（如：高美溼地風力發電、宜蘭地熱谷、花博綠建築、台北市太陽圖書館…等）
-    </p>
-    <p class="tab">
-3. 再生能源應用（如：自製風力發電機…等日常生活中的小巧思）
-    </p>
-    <p class="tab">
-4. 再生能源相關主題
+  本兒童舞台劇劇本比賽無限制主題，惟需切合再生能源議題，評分標準請參閱評選流程。
     </p>
 
     <p class="medium text subheader">
 四、報名方式
     </p>
     <p class="tab">
-1. 追蹤再生能源資訊網的Instagram 帳號：<a class="greenlink" href="https://www.instagram.com/boeenergy/" target="_tab">@boeenergy</a>
+1.參賽者需由下載劇本範例格式，遵循徵件格式，將作品上傳至報名系統。
     </p>
     <p class="tab">
-2. 將拍攝照片上傳至參賽Instagram帳號，同時貼文內需包含：作品名稱、50-200字內作品理念簡述、參賽標籤（參閱第3點）、標註<span class="green-emphsis">@boeenergy</span> 即可完成參賽報名。（參賽者須將帳號設為公開）
-    </p>
-    <p class="tab">
-3. 參賽標籤(#hashtag)：<span class="green-emphsis">#綠能攝影</span> (必須在貼文中顯示)<br/>
-其他參考標籤：<span class="green-emphsis">#綠攝影劇 #再生能源 #能源轉型 #再生能源生活圈 #TAIWAN_RE</span> ...等
-    </p>
-    <p class="tab">
-4. 若無Instagram帳號之參賽者，可將照片作品連同第二點之徵件內文（作品名稱、50-200字內作品理念簡述），以檔名⟪ 2019綠攝影劇創作_攝影組_作者名⟫ 寄到官方信箱re.cmpe@gmail.com，將透過非公開虛擬帳號協助刊登供評審審查。
+2.來稿請繳交WORD文字檔，檔名請以《2019綠攝影劇創作劇本_作品名_劇作全名》方式命名上傳。 
     </p>
 
   </div>
@@ -127,19 +111,19 @@
       作品規範
     </div>
     <p class="tab">
-1. 本賽初選以Instagram上傳報名，無預設作品檔案大小。唯參賽作品入圍後，須提供檔案大小1.5MB以上20MB以下與Instagram頁面相同之作品，入圍後繳交檔案格式為JPEG或JPG，作品單邊不得小於2,000pixels、解析度不得低於144dpi。
+1. 作品需為繁體中文寫作的兒童舞台劇作品，形式不拘。角色設定、故事結構必須完整，且貼切再生能源之主題。（詳參閱評分標準）
     </p>
     <p class="tab">
-2. 投稿作品以未曾公開發表者為限。公開發表者定義：平面出版、公開展覽、投稿過至線上販售之圖庫或參加其他攝影比賽公開發表者。但發表於Facebook、個人部落格、網路論壇者不在此限。
+2. 所有投件均需未曾公開發表，公開發表者定義：平面出版、公開演出、參加其他劇本比賽之獲獎作品。
     </p>
     <p class="tab">
-3. 參賽作品可適度調整亮度、對比、色調、銳利度、飽和度、裁切、拉直、修補雜點入塵、轉為單色調或黑白等。（為確保符合第一點之作品規範，不建議使用會壓縮檔案畫質之修圖軟體，例如：Instagram內建編修照片功能）
+3. 同稿另投其他競賽者，需於報名表上載明已經參加之戲劇競賽獎項名稱。若該作品於本競賽結果公告之前，已知獲得其他競賽獎項，即視同公開發表，自動放棄本競賽之參賽資格。請主動來信告知。
     </p>
     <p class="tab">
-4. 不得使用軟體合成、疊圖、無中生有加工（如：邊框、留邊、附加文字，浮水印及簽名檔等）；相機重曝功能不在此限。唯主辦單位有疑議時需提出拍攝原始檔案格式（EXIF資訊）證明，主辦單位得全權判定作品所採用的數位後製是否可接受。
+4. 參賽作品稿件須符合格式規範，內文中不得透漏任何身分識別或標記（如個人姓名、筆名等），詳細格式規範請參照範例格式。參賽劇本演出時間長度以30至40分鐘為限。
     </p>
     <p class="tab">
-5. 同一張作品不得以重製、裁切、翻轉作品等方式重複投稿。
+5. 劇本故事內容可為原創，亦可改編童話、經典著作，但改編之創作內容不得完全相同，需刪減、增加場景、角色以及修改故事內容。主辦單位得有權判定作品改編程度是否可接受。
     </p>
   </div>
 
@@ -154,13 +138,13 @@
       本賽共分兩階段評選，初審結果公布時間為2019年7月19日，得獎作品公布於2019年8月15日
     </p>
     <p class="tab">
-1. 初審階段會依據再生能源主題及拍攝意義傳達、構圖技巧等項目，請三位專業評審進行作品線上評選，挑選100件作品進入複審。未入圍複審階段之參賽者作品將不另行通知。
+1. 初審階段會依據再生能源主題及劇本創作意義傳達、故事內容等項目，請3位專業評審進行作品線上評選，挑選20件作品進入複審。未入圍複審階段之參賽者作品將不另行通知。
     </p>
     <p class="tab">
-2. 入圍複審的參賽者，會收Instagram帳號「@boeenergy」透過Instagram Direct發送的通知訊息，請按照通知在指定期限內，將入圍作品原始檔案(無壓縮)回傳，若發送通知後五天內未收到任何回覆，即視為棄權。
+2. 入圍複審的參賽者，會收到E-mail通知。
     </p>
     <p class="tab">
-3. 複審階段將邀請攝影、再生能源領域等五位專業評審，參賽者姓名一律不予標示，以示公平。
+3. 複審階段將邀請編劇、再生能源領域專業評審，參賽者姓名一律不予標示，以示公平。
     </p>
     <p class="tab">
 4. 專家評審評分重點：
@@ -176,15 +160,19 @@
   <tbody>
     <tr>
       <td>再生能源主題表現</td>
-      <td>40%</td>
-    </tr>
-    <tr>
-      <td>構圖技巧</td>
       <td>30%</td>
     </tr>
     <tr>
-      <td>攝影創意、技巧表現</td>
+      <td>劇本架構完整性及整體流暢度</td>
       <td>30%</td>
+    </tr>
+    <tr>
+      <td>舞台劇劇本演出可行性</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>劇本創意元素及戲劇張力表現</td>
+      <td>20%</td>
     </tr>
   </tbody>
   <tfoot>
@@ -229,7 +217,9 @@
   </div>
 
   <div class="my-content">
-    <a class="greenlink" href="https://drive.google.com/file/d/1l5T91_lqxGMkW07COXbcVIgwcqp2Mf1z/view" target="_tab">下載完整簡章</a>
+    <a class="yellowlink" href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" target="_tab">下載劇本微件格式</a>
+    <br/>
+    <a class="yellowlink" href="https://drive.google.com/file/d/1NdDmNwVl1N9_4s3ePP8OgEZkZRO22ij6/view" target="_tab">下載簡章</a>
   </div>
 
   <!-- 我要報名! 
@@ -245,10 +235,10 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button big green-bg">馬上追縱官方ig</a>
+        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">報名表單</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button green-button">馬上追縱官方ig</a>
+        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button yellow-button">報名表單</a>
       </div>
     </div>
   </div>
@@ -258,8 +248,8 @@
 
 </div>
 
-<img src="images/greenbox_r.png" style="position: relative; width: 100%; display: inline-block;"/>
-<div class="secondary-container green-bg">
+<img src="images/yellowbox.png" style="position: relative; width: 100%; transform: rotate(180deg); display: inline-block; margin-bottom: -1px;"/>
+<div class="secondary-container yellow-bg">
 
   <!-- 參賽須知 -->
   <div class="my-content">
@@ -358,3 +348,4 @@ $("#author-btn").click(function() {
    $ending = file_get_contents('ending.html');
    echo $ending;
 ?>
+
