@@ -18,6 +18,9 @@ body {
     letter-spacing: 0.6px;
     font-weight: 450; }
 
+.scrolling-disable {
+  overflow-y: hidden; }
+
 .indexbtn {
   color: #707070; }
   .indexbtn a, .indexbtn .icon {
@@ -188,7 +191,7 @@ body {
   align-content: center;
   width: 100%;
   margin-bottom: 15px;
-  margin-top: 15px; }
+  margin-top: 25px; }
   .my-iconheader-wrapper img {
     margin-right: 10px;
     display: inline;
@@ -218,7 +221,6 @@ body {
 
 .my-content {
   margin-top: 20px;
-  display: inline-block;
   width: 100%;
   padding: 0 5% 30px 5%;
   font-size: 1.2em;
@@ -259,7 +261,7 @@ a.yellowlink {
 
 .small-wrapper {
   width: 100%;
-  display: inline-block;
+  display: flex;
   max-width: 768px; }
 
 .two-button-container {
@@ -361,7 +363,7 @@ a.yellowlink {
   height: 75%;
   overflow: hidden;
   background: #3c5562;
-  display: inline-grid;
+  display: block;
   cursor: pointer; }
   .image-container img {
     width: 100%;
@@ -390,11 +392,11 @@ a.yellowlink {
 .more-image-container {
   margin-top: 20px;
   width: 100%;
-  display: flex;
   cursor: pointer;
   transition: 0.5s; }
   .more-image-container img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .more-image-container:hover {
     background: #3c5562; }
     .more-image-container:hover img {
@@ -410,7 +412,6 @@ a.yellowlink {
       display: inline-block; } }
 
 .show-two-content {
-  margin: 20px 0;
   width: 45%;
   display: inline-block; }
   @media screen and (max-width: 768px) {

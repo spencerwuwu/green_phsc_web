@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="styles/index.css">
   </head>
 
-  <body>
+  <body class="scrolling-disable">
     <!-- Json2Html -->
     <script src="javascripts/json2html.js"></script>
 

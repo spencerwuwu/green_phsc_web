@@ -25,6 +25,10 @@ body {
   }
 }
 
+.scrolling-disable {
+  overflow-y: hidden;
+}
+
 .indexbtn {
   color: $font-gray;
   a, .icon {
@@ -227,7 +231,7 @@ body {
   align-content: center;
   width: 100%;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 25px;
   img {
     margin-right: 10px;
     display: inline;
@@ -262,7 +266,6 @@ body {
 
 .my-content {
   margin-top: 20px;
-  display: inline-block;
   width: 100%;
   padding: 0 5% 30px 5%;
   font-size: 1.2em;
@@ -312,7 +315,7 @@ a.yellowlink {
 
 .small-wrapper {
   width: 100%;
-  display: inline-block;
+  display: flex;
   max-width: 768px;
 }
 
@@ -437,7 +440,7 @@ a.yellowlink {
   height: 75%;
   overflow: hidden;
   background: $my-blue;
-  display: inline-grid;
+  display: block;
   cursor: pointer;
   img {
     //height: 100%;
@@ -476,11 +479,11 @@ a.yellowlink {
 .more-image-container {
   margin-top: 20px;
   width: 100%;
-  display: flex;
   cursor: pointer;
   transition: 0.5s;
   img {
     width: 100%;
+    height: auto;
   }
   &:hover {
     background: $my-blue;
@@ -502,7 +505,6 @@ a.yellowlink {
 }
 
 .show-two-content {
-  margin: 20px 0;
   width: 45%;
   display: inline-block;
   @media #{$show-small-device} {

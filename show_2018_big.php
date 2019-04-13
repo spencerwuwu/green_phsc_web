@@ -108,9 +108,6 @@
     </div>
   </div>
 
-<div id="caption2" style="display:none">
-    <h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>
-</div>
 
   <div class="my-content">
 
