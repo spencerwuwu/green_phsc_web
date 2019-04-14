@@ -12,7 +12,7 @@
   </div>
   <div class="my-content">
     <div class="center-wrapper">
-    <div class="small-wrapper">
+    <div class="small-wrapper" style="display:block;">
     <img src="/images/index-text.png" width="100%"/>
 </div>
 </div>
