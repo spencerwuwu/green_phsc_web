@@ -229,7 +229,6 @@
   </div>
 
   <div class="my-content">
-    <a class="greenlink" href="https://drive.google.com/file/d/1l5T91_lqxGMkW07COXbcVIgwcqp2Mf1z/view" target="_tab">下載完整簡章</a>
   </div>
 
   <!-- 我要報名! 
@@ -245,10 +244,12 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button big green-bg">馬上追縱官方ig</a>
+      <a href="https://drive.google.com/open?id=1FEVyVuZOs8KPvGf5p7bf3JkhjLSdjgQ2" class="ui button big green-bg" target="_tab">下載簡章</a>
+        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button big green-bg">馬上追縱官方IG</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button green-button">馬上追縱官方ig</a>
+      <a href="https://drive.google.com/open?id=1FEVyVuZOs8KPvGf5p7bf3JkhjLSdjgQ2" class="ui button tiny green-bg" target="_tab">下載簡章</a>
+        <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui tiny button green-bg">馬上追縱官方IG</a>
       </div>
     </div>
   </div>

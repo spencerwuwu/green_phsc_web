@@ -30,7 +30,7 @@
             金賞
           </div>
         </div>
-        <div id="goldDes">
+        <div class="img-des" id="goldDes">
           <div class="righttab">
             <p>
   無限再生<br/>
@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       超能力<br/>
@@ -108,7 +108,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       再生希望，擁護能源<br/>
@@ -129,7 +129,6 @@
     </div>
   </div>
 
-  <script src="javascripts/show.js"></script>
 
   <div class="my-content">
 

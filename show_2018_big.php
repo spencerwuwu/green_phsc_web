@@ -25,7 +25,7 @@
             金賞- 社會組
           </div>
         </div>
-        <div id="goldDes">
+        <div class="img-des" id="goldDes">
           <div class="righttab">
             <p>
   北風與太陽2018<br/>
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       風力發電-大風車<br/>
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       我的能源…<br/>

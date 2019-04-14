@@ -9,21 +9,18 @@
 
   <div class="my-content">
     <div class="my-centerheader large text" id="method">
-      能源轉型 綠能先行
+關於本比賽
     </div>
     <br>
     <div class="center-wrapper">
       <div class="small-wrapper" style="text-align: center; display:inline-block;">
         <p>
-能源局從2015年開始，舉辦再生能源相關之網路競賽。邀請民眾一同發掘散落全臺的再生能源景象和發揮想像力創作出再生能源的LOGO、標語及四格漫畫等方式，讓更多人從不同角度來認識再生能源。
+為提高民眾對於再生能源資訊的關注度，並強化再生能源認識與連結，特舉辦此再生能源攝影／兒童劇劇本創作競賽。藉由大眾的雙眼，捕捉散落於全臺的再生能源景象；同時廣徵創作達人，盼望用兒童劇本，將艱深的再生能源議題，轉換為軟性生活化的題材，讓再生能源能更貼近民眾生活，進而產生共鳴。
         </p>
         <p>
-2019年「綠攝影劇」創作競賽，除了從你我角度捕捉到不同的再生能源風貌，也由劇本創作達人將再生能源揉入兒童劇，透過與兒童述說的口吻，撰寫出一部部吸引孩童的表演。
-        </p>
-        <p>
-邀請您拿起相機/紙筆，一同認識並支持再生能源。
-        </p>
+期望大眾在參加競賽的過程中，能主動發掘生活中所看到的再生能源設備，認識再生能源相關議題，進而認同再生能源之理念！
 
+        </p>
 
     </div>
     </div>
@@ -32,12 +29,12 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-        <a href="/photo_contest.php" class="ui button big green-bg">攝影比賽</a>
-        <a href="/script_contest.php" class="ui button big yellow-bg">劇本比賽</a>
+        <a href="/photo_contest.php" class="ui button big green-bg">攝影競賽</a>
+        <a href="/script_contest.php" class="ui button big yellow-bg">劇本競賽</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="/photo_contest.php" class="ui button green-button">攝影比賽</a>
-        <a href="/script_contest.php" class="ui button yellow-button">劇本比賽</a>
+        <a href="/photo_contest.php" class="ui button green-bg">攝影競賽</a>
+        <a href="/script_contest.php" class="ui button yellow-bg">劇本競賽</a>
       </div>
     </div>
   </div>

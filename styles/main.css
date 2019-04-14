@@ -21,11 +21,6 @@ body {
 .scrolling-disable {
   overflow-y: hidden; }
 
-.indexbtn {
-  color: #707070; }
-  .indexbtn a, .indexbtn .icon {
-    color: #707070 !important; }
-
 #preloader {
   position: absolute;
   top: 0;
@@ -77,6 +72,16 @@ h4.ui.header {
     text-shadow: 1px 1px rgba(9, 9, 9, 0.6); }
   .blue-bg .my-centerheader {
     text-shadow: 2px 2px rgba(20, 20, 20, 0.1); }
+
+.gray-bg {
+  background: #555555 !important;
+  color: #edebe6 !important;
+  border-color: #edebe6; }
+  .gray-bg a {
+    color: #edebe6; }
+  .gray-bg a:hover {
+    color: #edebe6;
+    text-shadow: 1px 1px rgba(9, 9, 9, 0.6); }
 
 .green-bg {
   background: #2d4e4b !important;
@@ -193,7 +198,7 @@ h4.ui.header {
   display: flex;
   align-content: center;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-top: 25px; }
   .my-iconheader-wrapper img {
     margin-right: 10px;
@@ -236,7 +241,7 @@ h4.ui.header {
   .my-content li {
     margin-bottom: 10px;
     font-size: 14px;
-    line-height: 14px; }
+    line-height: 17px; }
   .my-content table, .my-content th, .my-content td {
     background: none !important;
     color: #707070 !important; }
@@ -266,6 +271,11 @@ a.yellowlink {
   width: 100%;
   display: flex;
   max-width: 768px; }
+
+.tiny-wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 300px; }
 
 .two-button-container {
   display: flex;
@@ -301,11 +311,8 @@ a.yellowlink {
     align-content: center;
     margin: 0 5px; }
   #footer img {
-    margin-right: 3px;
-    height: 1.5em; }
-    @media screen and (max-width: 768px) {
-      #footer img {
-        height: 1.4em; } }
+    margin-right: 2px;
+    height: 0.9em; }
   #footer a {
     font-size: 18px; }
     #footer a img {
@@ -335,9 +342,9 @@ a.yellowlink {
   font-weight: 700; }
   @media screen and (max-width: 768px) {
     .contest-header {
-      padding: 50px 5% 0 5%;
-      font-size: 1.4em;
-      line-height: 1.4em; } }
+      padding: 40px 5% 0 5%;
+      font-size: 1.2em;
+      line-height: 1.3em; } }
 
 .contest_btns {
   width: 90%;
@@ -473,6 +480,9 @@ a.yellowlink {
   @media screen and (max-width: 768px) {
     .show-two-content {
       width: 100%; } }
+
+.img-des {
+  margin-bottom: 40px; }
 
 .show-three-wrapper {
   width: 100%;

@@ -11,12 +11,17 @@
   <div class="my-content">
   </div>
   <div class="my-content">
+    <div class="center-wrapper">
+    <div class="small-wrapper">
+    <img src="/images/index-text.png" width="100%"/>
+</div>
+</div>
   </div>
 
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container">
-        <a href="/contest.php" class="ui button big blue-bg">2019 綠攝影劇創作比賽</a>
+        <a href="/contest.php" class="ui button big gray-bg">2019 綠攝影劇創作比賽</a>
       </div>
     </div>
   </div>
@@ -31,6 +36,7 @@
 
 <script src="javascripts/index.js"></script>
 
+  <img src="/images/index-footer.png" width="100%" style="margin-bottom: -6px;"/>
 <?php
    $footer = file_get_contents('footer.html');
    echo $footer;

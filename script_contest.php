@@ -96,10 +96,10 @@
 四、報名方式
     </p>
     <p class="tab">
-1.參賽者需由下載劇本範例格式，遵循徵件格式，將作品上傳至報名系統。
+1. 參賽者需由下載劇本範例格式，遵循徵件格式，將作品上傳至報名系統。
     </p>
     <p class="tab">
-2.來稿請繳交WORD文字檔，檔名請以《2019綠攝影劇創作劇本_作品名_劇作全名》方式命名上傳。 
+2. 來稿請繳交WORD文字檔，檔名請以《2019綠攝影劇創作劇本_劇作全名》方式命名上傳。
     </p>
 
   </div>
@@ -200,7 +200,7 @@
 ● 銅賞1名：Canon PV-123 迷你相片印表機、獎狀乙份
     </p>
     <p class="tab">
-● 優選賞3名：Transcend 創見 1TB 防震外接硬碟、獎狀乙份
+● 優選賞3名：SKB 文明鋼筆 星紀元鋼筆禮盒組、獎狀乙份
     </p>
     <p class="tab">
     <br/>
@@ -216,10 +216,7 @@
     </p>
   </div>
 
-  <div class="my-content">
-    <a class="yellowlink" href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" target="_tab">下載劇本微件格式</a>
-    <br/>
-    <a class="yellowlink" href="https://drive.google.com/file/d/1NdDmNwVl1N9_4s3ePP8OgEZkZRO22ij6/view" target="_tab">下載簡章</a>
+  <div class="my-content"> <br/>
   </div>
 
   <!-- 我要報名! 
@@ -235,10 +232,14 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
+        <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui button big yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=1__RsH9mGrcpNDKe_rBZAXqruRTLwVOtx" class="ui button big yellow-bg" target="_tab">下載簡章</a>
         <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">報名表單</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button yellow-button">報名表單</a>
+        <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=1__RsH9mGrcpNDKe_rBZAXqruRTLwVOtx" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
+        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui tiny button yellow-bg">報名表單</a>
       </div>
     </div>
   </div>
@@ -278,7 +279,7 @@
 依中華民國稅法規定，獎金或給與凡價值超過新臺幣1,000元者，須申報所得；總價值超過新臺幣（含）2萬元者，依法須扣除10%稅額。
       </li>
       <li>
-投稿之參賽作品，1人最多以10件作品為限。 1人只限1項獎賞，以作品中最高成績者做為得獎依據。
+投稿之參賽作品，1人最多以5件作品為限。 1人只限1項獎賞，以作品中最高成績者做為得獎依據。
       </li>
       <li>
 請詳閱以上競賽辦法，一旦投稿參與本次競賽，參賽者均視為同意本活動辦法之各項規定，主辦單位保有修改與更動本簡章之權利。

@@ -25,7 +25,7 @@
             金賞
           </div>
         </div>
-        <div id="goldDes">
+        <div class="img-des" id="goldDes">
           <div class="righttab">
             <p>
   風力發電機！<br/>
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       后羿的新武器<br/>
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       像太陽一樣發電<br/>

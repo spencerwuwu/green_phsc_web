@@ -25,7 +25,7 @@
             金賞
           </div>
         </div>
-        <div id="goldDes">
+        <div class="img-des" id="goldDes">
           <div class="righttab">
             <p>
   夜明協晝取<br/>
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       看見美麗未來<br/>
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="img-des">
           <div class="righttab">
             <p>
       高美風采<br/>
