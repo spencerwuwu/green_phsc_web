@@ -13,7 +13,9 @@
 
       <div class="show-two-content" id="goldImg">
         <div class="image-container">
-        <img src="/images/2018/金賞_北風與太陽2018.jpg" data-src="/images/2018/金賞_北風與太陽2018.jpg">
+        <div class="content" data-src="/images/2018/金賞_北風與太陽2018.jpg">
+        <img src="/images/2018/金賞_北風與太陽2018.jpg">
+        </div>
         </div>
       </div>
       <div class="show-two-content">
@@ -47,7 +49,9 @@
     <div class="show-two-wrapper">
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2018/銀賞_風力發電-大風車.jpg" data-src="/images/2018/銀賞_風力發電-大風車.jpg">
+        <div class="content" data-src="/images/2018/銀賞_風力發電-大風車.jpg">
+          <img src="/images/2018/銀賞_風力發電-大風車.jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -77,7 +81,9 @@
 
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2018/銅賞_我的能源....jpg" data-src="/images/2018/銅賞_我的能源....jpg">
+        <div class="content" data-src="/images/2018/銅賞_我的能源....jpg">
+          <img src="/images/2018/銅賞_我的能源....jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -167,7 +173,6 @@ $.getScript('/javascripts/2018/2018-big-data.js', function() {
 });
 </script>
 
-  <script src="javascripts/show.js"></script>
 </div>
 
   <!-- End of Content -->

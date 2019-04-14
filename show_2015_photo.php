@@ -13,7 +13,9 @@
 
       <div class="show-two-content" id="goldImg">
         <div class="image-container">
-        <img src="/images/2015/第一名_葉淑芬【夜明協晝取】.jpg" data-src="/images/2015/第一名_葉淑芬【夜明協晝取】.jpg">
+        <div class="content" data-src="/images/2015/第一名_葉淑芬【夜明協晝取】.jpg">
+        <img src="/images/2015/第一名_葉淑芬【夜明協晝取】.jpg">
+        </div>
         </div>
       </div>
       <div class="show-two-content">
@@ -47,7 +49,9 @@
     <div class="show-two-wrapper">
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2015/第二名_陳幸慧【看見美麗未來】.jpg" data-src="/images/2015/第二名_陳幸慧【看見美麗未來】.jpg">
+        <div class="content" data-src="/images/2015/第二名_陳幸慧【看見美麗未來】.jpg">
+          <img src="/images/2015/第二名_陳幸慧【看見美麗未來】.jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -77,7 +81,9 @@
 
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2015/第三名_鄒淑鳳【高美風采】.jpg" data-src="/images/2015/第三名_鄒淑鳳【高美風采】.jpg">
+        <div class="content" data-src="/images/2015/第三名_鄒淑鳳【高美風采】.jpg">
+          <img src="/images/2015/第三名_鄒淑鳳【高美風采】.jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -163,7 +169,6 @@ $.getScript('/javascripts/2015/photo-data.js', function() {
 });
 </script>
 
-  <script src="javascripts/show.js"></script>
 </div>
 
   <!-- End of Content -->

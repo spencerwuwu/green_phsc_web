@@ -12,8 +12,15 @@
     <div class="show-two-wrapper">
 
       <div class="show-two-content" id="goldImg">
-        <div class="image-container">
-        <img src="/images/2015/第一名_李依玲【無限再生】.jpg" data-src="/images/2015/第一名_李依玲【無限再生】.jpg">
+        <div class="image-twin-container">
+          <div class="image-content">
+            <div class="image-twin" data-src="/images/2015/第一名_李依玲【無限再生】.jpg">
+              <img class="high" src="/images/2015/第一名_李依玲【無限再生】.jpg">
+            </div>
+            <div class="image-twin" data-src="/images/2015/第一名_李依玲【無限再生】元素.jpg">
+              <img class="high" src="/images/2015/第一名_李依玲【無限再生】元素.jpg">
+            </div>
+          </div>
         </div>
       </div>
       <div class="show-two-content">
@@ -46,8 +53,15 @@
   <div class="my-content">
     <div class="show-two-wrapper">
       <div class="show-two-content">
-        <div class="image-container">
-          <img src="/images/2015/第二名_簡國全【超能力】.jpg" data-src="/images/2015/第二名_簡國全【超能力】.jpg">
+        <div class="image-twin-container">
+          <div class="image-content">
+            <div class="image-twin" data-src="/images/2015/第二名_簡國全【超能力】.jpg">
+              <img class="high" src="/images/2015/第二名_簡國全【超能力】.jpg">
+            </div>
+            <div class="image-twin" data-src="/images/2015/第二名_簡國全【超能力】元素.jpg">
+            <img class="wide" src="/images/2015/第二名_簡國全【超能力】元素.jpg">
+            </div>
+          </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -76,8 +90,15 @@
       </div>
 
       <div class="show-two-content">
-        <div class="image-container">
-          <img src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】.jpg" data-src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】.jpg">
+        <div class="image-twin-container">
+          <div class="image-content">
+            <div class="image-twin" data-src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】.jpg">
+              <img class="high" src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】.jpg">
+            </div>
+            <div class="image-twin" data-src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】元素.jpg">
+              <img class="wide" src="/images/2015/第三名_陳榆欣【再生希望，擁護能源】元素.jpg">
+            </div>
+          </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -108,6 +129,7 @@
     </div>
   </div>
 
+  <script src="javascripts/show.js"></script>
 
   <div class="my-content">
 
@@ -152,9 +174,7 @@ $.getScript('/javascripts/2015/poster-data.js', function() {
 
   $('#small1').html(json2html.transform(data4,transform));
   $('#small2').html(json2html.transform(data5,transform));
-  $(".image-container").lightGallery({
-    thumbnail: false,
-    controls: false
+  $(".image-content").lightGallery({
   });
   $(".more-image-container").lightGallery({
     thumbnail: false,
@@ -163,7 +183,7 @@ $.getScript('/javascripts/2015/poster-data.js', function() {
 });
 </script>
 
-  <script src="javascripts/show-poster.js"></script>
+
 </div>
 
   <!-- End of Content -->

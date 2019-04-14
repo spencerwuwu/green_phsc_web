@@ -367,20 +367,70 @@ a.yellowlink {
   margin-top: 15px;
   padding: 0 0;
   width: 100%;
-  height: 75%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
   overflow: hidden;
   background: none;
   display: block;
   cursor: pointer;
-  transition: 0.5s; }
-  .image-container img {
+  position: relative; }
+  .image-container .content {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .image-container .content img {
+      position: relative;
+      width: 100%;
+      height: auto; }
+    .image-container .content:hover {
+      transition: 0.5s; }
+      .image-container .content:hover img {
+        opacity: 0.6; }
+
+.image-twin-container {
+  margin-top: 15px;
+  padding: 0 0;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  background: none;
+  display: flex;
+  cursor: pointer;
+  position: relative; }
+  .image-twin-container .image-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between; }
+
+.image-twin {
+  position: relative;
+  width: 49%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; }
+  .image-twin img {
     width: 100%;
     height: auto;
     transition: 0.5s; }
-  .image-container:hover {
-    background: #3c5562; }
-    .image-container:hover img {
-      opacity: 0.8; }
+  .image-twin img.high {
+    width: 100%;
+    height: auto;
+    transition: 0.5s; }
+  .image-twin img.wide {
+    width: auto;
+    height: 100%;
+    transition: 0.5s; }
+  .image-twin:hover img {
+    opacity: 0.6; }
 
 .more-image {
   margin: 20px 0;
@@ -400,15 +450,13 @@ a.yellowlink {
 .more-image-container {
   margin-top: 20px;
   width: 100%;
-  cursor: pointer;
-  transition: 0.5s; }
+  cursor: pointer; }
   .more-image-container img {
     width: 100%;
     height: auto; }
-  .more-image-container:hover {
-    background: #3c5562; }
-    .more-image-container:hover img {
-      opacity: 0.6; }
+  .more-image-container:hover img {
+    transition: 0.5s;
+    opacity: 0.6; }
 
 .show-two-wrapper {
   width: 100%;

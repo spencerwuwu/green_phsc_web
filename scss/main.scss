@@ -447,23 +447,81 @@ a.yellowlink {
   margin-top: 15px;
   padding: 0 0;
   width: 100%;
-  height: 75%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
   overflow: hidden;
   background: none;
   display: block;
   cursor: pointer;
-  transition: 0.5s;
+  position: relative;
+  .content {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    img {
+      //height: 100%;
+      //width: auto;
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    &:hover {
+      transition: 0.5s;
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.image-twin-container {
+  margin-top: 15px;
+  padding: 0 0;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  background: none;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  .image-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.image-twin {
+  position: relative;
+  width: 49%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
   img {
-    //height: 100%;
-    //width: auto;
     width: 100%;
     height: auto;
     transition: 0.5s;
   }
+  img.high {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+  }
+  img.wide {
+    width: auto;
+    height: 100%;
+    transition: 0.5s;
+  }
   &:hover {
-    background: $my-blue;
     img {
-      opacity: 0.8;
+      opacity: 0.6;
     }
   }
 }
@@ -491,14 +549,13 @@ a.yellowlink {
   margin-top: 20px;
   width: 100%;
   cursor: pointer;
-  transition: 0.5s;
   img {
     width: 100%;
     height: auto;
   }
   &:hover {
-    background: $my-blue;
     img {
+      transition: 0.5s;
       opacity: 0.6;
     }
   }

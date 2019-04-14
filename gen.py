@@ -4,13 +4,13 @@ import json
 import os
 
 
-lines = os.popen("cat parse/04.txt").read().splitlines()
+lines = os.popen("cat parse/05.txt").read().splitlines()
 src_lists = []
 no = 0
 for line in lines:
     line = line.encode("utf-8").decode("utf-8")
     if no is 0:
-        img = "/images/2018/" + line + ".jpg"
+        img = "/images/2015/" + line + ".jpg"
     elif no is 1:
         name = line
     elif no is 2:

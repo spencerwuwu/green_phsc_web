@@ -13,7 +13,9 @@
 
       <div class="show-two-content" id="goldImg">
         <div class="image-container">
-        <img src="/images/2018/金賞_風力發電機！.jpg" data-src="/images/2018/金賞_風力發電機！.jpg">
+        <div class="content" data-src="/images/2018/金賞_風力發電機！.jpg">
+        <img src="/images/2018/金賞_風力發電機！.jpg">
+        </div>
         </div>
       </div>
       <div class="show-two-content">
@@ -47,7 +49,9 @@
     <div class="show-two-wrapper">
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2018/銀賞_后羿的新武器.jpg" data-src="/images/2018/銀賞_后羿的新武器.jpg">
+        <div class="content" data-src="/images/2018/銀賞_后羿的新武器.jpg">
+          <img src="/images/2018/銀賞_后羿的新武器.jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -77,7 +81,9 @@
 
       <div class="show-two-content">
         <div class="image-container">
-          <img src="/images/2018/銅賞_像太陽一樣發電.jpg" data-src="/images/2018/銅賞_像太陽一樣發電.jpg">
+        <div class="content" data-src="/images/2018/銅賞_像太陽一樣發電.jpg">
+          <img src="/images/2018/銅賞_像太陽一樣發電.jpg">
+        </div>
         </div>
 
         <div class="my-iconheader-wrapper">
@@ -163,7 +169,6 @@ $.getScript('/javascripts/2018/2018-small-data.js', function() {
 });
 </script>
 
-  <script src="javascripts/show.js"></script>
 </div>
 
   <!-- End of Content -->
