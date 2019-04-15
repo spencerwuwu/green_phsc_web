@@ -163,10 +163,16 @@ $.getScript('/javascripts/2018/2018-big-data.js', function() {
   $('#small1').html(json2html.transform(data4,transform));
   $('#small2').html(json2html.transform(data5,transform));
   $(".image-container").lightGallery({
+    mousewheel: false,
+    enableDrag: false,
+    enableSwipe: false,
     thumbnail: false,
     controls: false
   });
   $(".more-image-container").lightGallery({
+    mousewheel: false,
+    enableDrag: false,
+    enableSwipe: false,
     thumbnail: false,
     controls: false
   });

@@ -26,15 +26,9 @@
     </div>
   </div>
 
-  <div class="my-content">
-  </div>
-  <div class="my-content">
-  </div>
-  <div class="my-content">
-  </div>
 
 
-<script src="javascripts/index.js"></script>
+<script src="javascripts/index-z.js"></script>
 
   <img src="/images/index-footer.png" width="100%" style="margin-bottom: -6px;"/>
 <?php

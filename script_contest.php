@@ -69,7 +69,7 @@
       一、徵件時間
     </p>
     <p class="tab">
-      2019年4月15日12時0分起 至 2019年7月5日23時59分止。
+      2019年4月16日12時0分起 至 2019年7月5日23時59分止。
     </p>
 
     <p class="medium text subheader">
@@ -233,13 +233,13 @@
     <div class="center-wrapper">
       <div class="two-button-container large-only">
         <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui button big yellow-bg" target="_tab">下載格式</a>
-        <a href="https://drive.google.com/open?id=1__RsH9mGrcpNDKe_rBZAXqruRTLwVOtx" class="ui button big yellow-bg" target="_tab">下載簡章</a>
-        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">報名表單</a>
+        <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui button big yellow-bg" target="_tab">下載簡章</a>
+        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">立即報名</a>
       </div>
       <div class="two-button-container small-only">
         <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
-        <a href="https://drive.google.com/open?id=1__RsH9mGrcpNDKe_rBZAXqruRTLwVOtx" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
-        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui tiny button yellow-bg">報名表單</a>
+        <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
+        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui tiny button yellow-bg">立即報名</a>
       </div>
     </div>
   </div>

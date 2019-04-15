@@ -3,7 +3,7 @@
   <head lang="zh-TW">
     <meta charset="utf-8">
     <title>
-      再生能源創作藝術
+      綠能共創
     </title>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -16,8 +16,12 @@
     <link type="text/css" rel="stylesheet" href="lg-dist/css/lightgallery.min.css" />
     <link type="text/css" rel="stylesheet" href="slick/slick.css" />
 
+    <!--
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="style-new/main.css">
+    <link rel="stylesheet" type="text/css" href="style-new/index.css">
   </head>
 
   <body class="scrolling-disable">

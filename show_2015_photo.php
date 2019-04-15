@@ -163,6 +163,9 @@ $.getScript('/javascripts/2015/photo-data.js', function() {
     controls: false
   });
   $(".more-image-container").lightGallery({
+    mousewheel: false,
+    enableDrag: false,
+    enableSwipe: false,
     thumbnail: false,
     controls: false
   });

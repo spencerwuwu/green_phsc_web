@@ -69,7 +69,7 @@
       一、徵件時間
     </p>
     <p class="tab">
-      2019年4月15日12時0分起 至 2019年7月5日23時59分止。
+      2019年4月16日12時0分起 至 2019年7月5日23時59分止。
     </p>
 
     <p class="medium text subheader">
@@ -244,11 +244,11 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-      <a href="https://drive.google.com/open?id=1FEVyVuZOs8KPvGf5p7bf3JkhjLSdjgQ2" class="ui button big green-bg" target="_tab">下載簡章</a>
+      <a href="https://drive.google.com/open?id=1czyA10v-RamHFpxtL_wQySk57nHAEy1F" class="ui button big green-bg" target="_tab">下載簡章</a>
         <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui button big green-bg">馬上追縱官方IG</a>
       </div>
       <div class="two-button-container small-only">
-      <a href="https://drive.google.com/open?id=1FEVyVuZOs8KPvGf5p7bf3JkhjLSdjgQ2" class="ui button tiny green-bg" target="_tab">下載簡章</a>
+      <a href="https://drive.google.com/open?id=1czyA10v-RamHFpxtL_wQySk57nHAEy1F" class="ui button tiny green-bg" target="_tab">下載簡章</a>
         <a href="https://www.instagram.com/boeenergy/" target="_tab" class="ui tiny button green-bg">馬上追縱官方IG</a>
       </div>
     </div>

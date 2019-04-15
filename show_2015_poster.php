@@ -176,6 +176,9 @@ $.getScript('/javascripts/2015/poster-data.js', function() {
   $(".image-content").lightGallery({
   });
   $(".more-image-container").lightGallery({
+    mousewheel: false,
+    enableDrag: false,
+    enableSwipe: false,
     thumbnail: false,
     controls: false
   });

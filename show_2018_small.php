@@ -151,7 +151,7 @@ var transform = {'<>':'div','class':'more-image-container','html':[
       {'<>':'span','html':'${des}'},
     ]}
 ]};
-$.getScript('/javascripts/2018/2018-small-data.js', function() {
+$.getScript('/javascripts/2018/small-data.js', function() {
   $('#large1').html(json2html.transform(data1,transform));
   $('#large2').html(json2html.transform(data2,transform));
   $('#large3').html(json2html.transform(data3,transform));
@@ -163,6 +163,9 @@ $.getScript('/javascripts/2018/2018-small-data.js', function() {
     controls: false
   });
   $(".more-image-container").lightGallery({
+    mousewheel: false,
+    enableDrag: false,
+    enableSwipe: false,
     thumbnail: false,
     controls: false
   });
