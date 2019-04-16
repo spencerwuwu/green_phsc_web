@@ -232,12 +232,12 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-        <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui button big yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=1D2i0nUsJ2bEgduFHgA8qiKT9xjiruIr2" class="ui button big yellow-bg" target="_tab">下載格式</a>
         <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui button big yellow-bg" target="_tab">下載簡章</a>
         <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">立即報名</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="https://drive.google.com/file/d/1rMSq9m9m_ROFwrJh4Cf39UrnrwX0RzQo/view" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=1D2i0nUsJ2bEgduFHgA8qiKT9xjiruIr2" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
         <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
         <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui tiny button yellow-bg">立即報名</a>
       </div>

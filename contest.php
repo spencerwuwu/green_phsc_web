@@ -9,7 +9,7 @@
 
   <div class="my-content">
     <div class="my-centerheader large text" id="method">
-關於本比賽
+關於本競賽
     </div>
     <br>
     <div class="center-wrapper">
