@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head lang="zh-TW">
+    <meta charset="utf-8">
+    <title>
+      綠能共創
+    </title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="javascripts/jquery-3.3.1.min.js"></script>
+    <script src="semantic-ui/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+    <link type="text/css" rel="stylesheet" href="lg-dist/css/lightgallery.min.css" />
+    <link type="text/css" rel="stylesheet" href="slick/slick.css" />
+
+    <!--
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+      <link rel="stylesheet" type="text/css" href="styles/index.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="style-new/main.css">
+    <link rel="stylesheet" type="text/css" href="style-new/index.css">
+  </head>
+
+  <body class="scrolling-disable">
+    <!-- Json2Html -->
+    <script src="javascripts/json2html.js"></script>
+
+    <!-- lightgallery -->
+    <script src="lg-dist/js/lightgallery-all.min.js"></script>
+    <script src="javascripts/jquery.mousewheel.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    <!-- Start of Menu -->
+    <div class="ui fixed borderless main menu" id="mainMenu">
+
+      <div class="left menu">
+        <a class="header item" href="index.html">
+          <h2 class="indexbtn">
+            <img src="images/banner.png" style="height: 1.4em"/>
+          </h2>
+        </a>
+      </div>
+
+      <div class="right menu large-only indexbtn">
+
+        <div class="ui pointing dropdown link item" id="introDropdown" onClick="window.location.assign('contest.html');" >
+          <span class="text">立即報名2019綠攝影劇！</span>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="photo_contest.html">攝影競賽</a>
+            <a class="item" href="script_contest.html">劇本競賽</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+          </div>
+        </div>
+
+        <div class="browse item">
+          <span class="text">綠能創意線上展</span>
+          <i class="dropdown icon"></i>
+        </div>
+
+        <div class="ui flowing popup transition hidden" style="width: 300px;">
+          <div class="ui two column relaxed equal height divided grid">
+            <div class="column">
+              <h4 class="ui header">2015</h4>
+              <div class="ui link list">
+                <a class="item" href="show_2015_poster.html">海報與logo</a>
+                <a class="item" href="show_2015_photo.html">攝影</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui link list">
+                <h4 class="ui header">2018</h4>
+                <a class="item" href="show_2018_big.html">社會組</a>
+                <a class="item" href="show_2018_small.html">學生組</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui link list">
+                <h4 class="ui header">2019</h4>
+                <a class="item" href="show_2019_photo.html">攝影競賽</a>
+                <a class="item" href="show_2019_script.html">劇本競賽</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          $('.browse')
+  .popup({
+    inline     : true,
+    hoverable  : true,
+    position: 'bottom left',
+  });
+        </script>
+
+        <a href="https://www.re.org.tw/" target="_tab" class="item" style="color: rgba(0,0,0,.87) !important;">再生能源資訊網</a>
+
+      </div>
+
+      <div class="right menu small-only indexbtn">
+        <div class="ui dropdown icon item" id="smallMenuBtn">
+          <i class="bars large icon"></i>
+          <div class="menu">
+
+            <h4 class="ui header" onClick="window.location.assign('contest.html');">2019 綠攝影劇</h4>
+            <a class="item" href="photo_contest.html">攝影競賽</a>
+            <a class="item" href="script_contest.html">劇本競賽</a>
+            <a class="item" href="photo_live.html">即時賽況</a>
+
+            <div class="divider"></div>
+            <h4 class="ui header">綠能創意線上展</h4>
+            <a class="item" href="show_2015_poster.html">2015 海報與logo</a>
+            <a class="item" href="show_2015_photo.html">2015 攝影</a>
+            <a class="item" href="show_2018_big.html">2018 社會組</a>
+            <a class="item" href="show_2018_small.html">2018 學生組</a>
+            <a class="item" href="show_2019_photo.html">2019 攝影競賽</a>
+            <a class="item" href="show_2019_script.html">2018 劇本競賽</a>
+            <!--
+              <a class="item" href="show_2019.php">2019</a>
+            -->
+
+            <div class="divider"></div>
+            <a href="https://www.re.org.tw/" target="_tab" class="item">再生能源資訊網</a>
+          </div>
+        </div>
+      </div>
+
+      <script>  $("#introDropdown").dropdown({on: 'hover'}); </script>
+      <script>  $("#showDropdown").dropdown({on: 'hover'}); </script>
+      <script>  $("#aboutDropdown").dropdown({on: 'hover'}); </script>
+      <script>  $("#smallMenuBtn").dropdown(); </script>
+      <script>  $("#smallsubMenuBtn").dropdown(); </script>
+
+    </div>
+
+    <div class="ui segment" id="preloader">
+      <div class="ui active inverted dimmer">
+        <div class="ui indeterminate text loader">Loading</div>
+      </div>
+      <p></p>
+    </div>
+
+    <script>
+      $(window).on('load', function(){
+        $('#preloader').fadeOut('slow');
+        $("body").removeClass("scrolling-disable");
+      });
+    </script>
+
+    <!-- End of Menu -->
+
+    <div id="body-container">
+      <!-- Content -->
+      <div id="content-container">
+
+        <!-- IG Feeds -->
+        <div class="my-centerheader large text">
+          即時賽況
+        </div>
+
+        <div class="my-content">
+          <div class="center-wrapper">
+            <div class="small-wrapper large-only">
+              <!-- InstaWidget -->
+              <a href="https://instawidget.net/v/tag/%E7%B6%A0%E8%83%BD%E6%94%9D%E5%BD%B1" id="link-4bcd501f7ec97fb21477d9331de42db24af3ccf44c8384482cedda9b7b9ba009">#綠能攝影</a>
+              <script src="https://instawidget.net/js/instawidget.js?u=4bcd501f7ec97fb21477d9331de42db24af3ccf44c8384482cedda9b7b9ba009&width=768px"></script>
+            </div>  
+            <div class="tiny-wrapper small-only">
+              <!-- InstaWidget -->
+              <a href="https://instawidget.net/v/tag/%E7%B6%A0%E8%83%BD%E6%94%9D%E5%BD%B1" id="link-450662fb56708dd82b9a55c5873ae4387d1d6e6bdc5a13e4aefd8f8cb2730ef5">#綠能攝影</a>
+              <script src="https://instawidget.net/js/instawidget.js?u=450662fb56708dd82b9a55c5873ae4387d1d6e6bdc5a13e4aefd8f8cb2730ef5&width=300px"></script>
+            </div>  
+          </div>
+
+
+        </div>
+
+
+        <!-- End of Content -->
+
+
+      </div>
+
+      <!-- Begining of Footer -->
+
+
+      <div id="footer">
+        <div class="mycontent">
+          <div class="center-wrapper large text">
+            <div class="two-button-container">
+              <div>
+                <a href="https://www.facebook.com/BOEenergy/" target="_tab"><img src="images/fb.png"/></a>
+                <a href="https://www.instagram.com/boeenergy/" target="_tab"><img src="images/ig.png"/></a>
+                <a href="mailto:re.cmpe@gmail.com" target="_top"><img src="images/email.png"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mycontent medium text">
+          <div class="center-wrapper large-only">
+            <span>主辦單位/ <span><image src="images/logo02.png"/></span>
+              <span> 執行單位/ <span><image src="images/logo01.png"/></span>
+          </div>
+
+          <div class="center-wrapper small-only">
+            <span>主辦單位/ <span><image src="images/logo02.png"/></span>
+          </div>
+          <div class="center-wrapper small-only">
+            <span> 執行單位/ <span><image src="/images/logo01.png"/></span>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        Copyright © BOEenergy All Rights Reserved.
+      </div>
+
+
+
+
+
+      <!-- Begining of Ending -->
+    </div>
+    <button class="huge ui basic icon button" id="scrollTop" onclick="scroll2Top()"><i class="angle up icon"></i></button>
+    <script>function scroll2Top() {
+      $("html, body").animate({ scrollTop: 0 }, "fast");
+    }</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138304198-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-138304198-1');
+    </script>
+
+
+  </body>
+
+</html>

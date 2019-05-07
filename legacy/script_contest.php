@@ -82,7 +82,7 @@
 2. 每位參賽者總上限投稿件數為5件作品，須為尚未發表、且未參加其他競賽之作品。
     </p>
     <p class="tab">
-3. 參賽者須於規定之徵件期間內上傳參賽作品。
+3. 參賽者須於規定之徵件期間內投稿參賽作品
     </p>
 
     <p class="medium text subheader">
@@ -96,10 +96,10 @@
 四、報名方式
     </p>
     <p class="tab">
-1. 參賽者需由下載劇本範例格式，遵循徵件格式，將作品上傳至報名系統。
+1. 參賽者需由官方網站下載劇本範例格式，遵循徵件格式，將作品寄至re.cmpe@gmail.com。信件名稱請以《投稿_2019綠攝影劇創作劇本_劇作全名》方式命名。
     </p>
     <p class="tab">
-2. 來稿請繳交WORD文字檔，檔名請以《2019綠攝影劇創作劇本_劇作全名》方式命名上傳。
+2. 來稿請繳交WORD文字檔，檔名請以《2019綠攝影劇創作劇本_劇作全名》方式命名。
     </p>
 
   </div>
@@ -232,14 +232,14 @@
   <div class="my-content">
     <div class="center-wrapper">
       <div class="two-button-container large-only">
-        <a href="https://drive.google.com/open?id=1D2i0nUsJ2bEgduFHgA8qiKT9xjiruIr2" class="ui button big yellow-bg" target="_tab">下載格式</a>
-        <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui button big yellow-bg" target="_tab">下載簡章</a>
-        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui button big yellow-bg">立即報名</a>
+        <a href="https://drive.google.com/open?id=1WWq9RgyoZ465NHQATYU47vYdORbG2zt_" class="ui button big yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=18tIuS5DuvosGfO3dzB8xY994e3oCTIwy" class="ui button big yellow-bg" target="_tab">下載簡章</a>
+        <a href="mailto:re.cmpe@gmail.com" target="_top" class="ui button big yellow-bg">立即報名</a>
       </div>
       <div class="two-button-container small-only">
-        <a href="https://drive.google.com/open?id=1D2i0nUsJ2bEgduFHgA8qiKT9xjiruIr2" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
-        <a href="https://drive.google.com/open?id=1FE-zUdlsPMzGCcBSDlI6nTDmmCsodFbs" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
-        <a href="https://forms.gle/rxPzp32hnoaPZvc96" target="_tab" class="ui tiny button yellow-bg">立即報名</a>
+        <a href="https://drive.google.com/open?id=1WWq9RgyoZ465NHQATYU47vYdORbG2zt_" class="ui tiny button yellow-bg" target="_tab">下載格式</a>
+        <a href="https://drive.google.com/open?id=18tIuS5DuvosGfO3dzB8xY994e3oCTIwy" class="ui tiny button yellow-bg" target="_tab">下載簡章</a>
+        <a href="mailto:re.cmpe@gmail.com" target="_top" class="ui tiny button yellow-bg">立即報名</a>
       </div>
     </div>
   </div>
