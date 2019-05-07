@@ -25,6 +25,10 @@ body {
   }
 }
 
+.button {
+  border-radius: 30px !important;
+}
+
 .scrolling-disable {
   overflow-y: hidden;
 }
@@ -624,5 +628,19 @@ a.yellowlink {
   }
   img {
     width: 100%;
+  }
+}
+
+.tobe-2019 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 300px;
+  color: $tobe-gray;
+  font-size: 1.6em;
+  @media #{$small-device} {
+    font-size: 1.1em;
   }
 }

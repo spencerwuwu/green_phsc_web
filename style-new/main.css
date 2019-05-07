@@ -18,6 +18,9 @@ body {
     letter-spacing: 0.6px;
     font-weight: 450; }
 
+.button {
+  border-radius: 30px !important; }
+
 .scrolling-disable {
   overflow-y: hidden; }
 
@@ -513,5 +516,18 @@ a.yellowlink {
       display: none; } }
   .show-three-content-small img {
     width: 100%; }
+
+.tobe-2019 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 300px;
+  color: #3C5562;
+  font-size: 1.6em; }
+  @media screen and (max-width: 768px) {
+    .tobe-2019 {
+      font-size: 1.1em; } }
 
 /*# sourceMappingURL=main.css.map */

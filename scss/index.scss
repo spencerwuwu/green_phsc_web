@@ -22,7 +22,7 @@
 .index_middle_btns {
   width: 100%;
   text-align: center;
-  border-bottom: 2px solid $font-gray;
+  border-bottom: 1px solid $font-mid-gray;
   padding-bottom: 15px !important;
   @media #{$small-device} {
     border-bottom: none;
@@ -35,10 +35,10 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    border-right: 1px solid $font-gray;
+    border-right: 1px solid $font-mid-gray;
     @media #{$small-device} {
-      border-right: 2px solid $font-gray;
-      border-left: 2px solid $font-gray;
+      border-right: 1px solid $font-mid-gray;
+      border-left: 1px solid $font-mid-gray;
     }
     img {
       width: 70%;
