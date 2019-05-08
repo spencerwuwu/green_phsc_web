@@ -47,7 +47,7 @@
 
 .index-image-container {
   width: 25%;
-  max-width: 300px;
+  max-width: 150px;
   margin: 10px; }
   .index-image-container .image-container {
     padding-top: 100%;
@@ -55,5 +55,8 @@
   @media screen and (max-width: 768px) {
     .index-image-container {
       width: 40%; } }
+  .index-image-container img.wide {
+    height: 100%;
+    width: auto; }
 
 /*# sourceMappingURL=index.css.map */

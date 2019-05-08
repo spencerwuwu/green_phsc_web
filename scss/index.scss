@@ -63,12 +63,16 @@
 
 .index-image-container {
   width: 25%;
-  max-width: 300px;
+  max-width: 150px;
   margin: 10px;
   .image-container {
     padding-top: 100%; /* 1:1 Aspect Ratio */
   }
   @media #{$small-device} {
     width: 40%;
+  }
+  img.wide {
+    height: 100%;
+    width: auto;
   }
 }
