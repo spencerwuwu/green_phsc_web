@@ -48,7 +48,7 @@
 .index-image-container {
   width: 25%;
   max-width: 150px;
-  margin: 10px; }
+  margin: 10px 5px; }
   .index-image-container .image-container {
     padding-top: 100%;
     /* 1:1 Aspect Ratio */ }
