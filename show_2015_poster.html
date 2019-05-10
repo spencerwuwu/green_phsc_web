@@ -325,13 +325,16 @@ $.getScript('/javascripts/2015/poster-data.js', function() {
   $('#small1').html(json2html.transform(data4,transform));
   $('#small2').html(json2html.transform(data5,transform));
   $(".image-content").lightGallery({
+    download: false
   });
   $(".more-image-container").lightGallery({
     mousewheel: false,
     enableDrag: false,
     enableSwipe: false,
     thumbnail: false,
-    controls: false
+    controls: false,
+    download: false
+
   });
 });
       </script>
