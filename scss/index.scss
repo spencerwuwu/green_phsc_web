@@ -19,6 +19,14 @@
   justify-content: center;
 }
 
+.index-intro {
+  font-weight: 700;
+  letter-spacing: 2px;
+  @media #{$large-device} {
+    text-align: center;
+  }
+}
+
 .index_middle_btns {
   width: 100%;
   text-align: center;
