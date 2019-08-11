@@ -1,0 +1,27 @@
+.slogan-topic {
+  color: #3C5562;
+  letter-spacing: 3px !important; }
+
+#slogan-wrapper {
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 15px 30px; }
+
+.slogan-item {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 25px; }
+  .slogan-item img {
+    margin-right: 10px;
+    display: inline;
+    height: 45px; }
+    @media screen and (max-width: 768px) {
+      .slogan-item img {
+        height: 35px; } }
+
+/*# sourceMappingURL=slogan.css.map */

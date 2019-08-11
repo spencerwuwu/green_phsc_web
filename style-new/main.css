@@ -473,6 +473,21 @@ a.yellowlink {
     transition: 0.5s;
     opacity: 0.6; }
 
+.new-more-image-container {
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden; }
+  .new-more-image-container img {
+    height: 100%;
+    width: auto; }
+  .new-more-image-container:hover img {
+    transition: 0.5s;
+    opacity: 0.6; }
+
 .show-two-wrapper {
   width: 100%;
   display: flex;
