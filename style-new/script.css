@@ -1,3 +1,7 @@
+.my-content ul li {
+  font-size: 1em;
+  line-height: 1.1em; }
+
 .script-wrapper {
   background-color: #F8F8F8;
   display: inline-block;
