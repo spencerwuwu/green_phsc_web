@@ -7,21 +7,20 @@
   letter-spacing: 3px !important;
 }
 
-#slogan-wrapper {
+.slogan-wrapper {
   background-color: #F8F8F8;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-content: center;
-  align-items: center;
-  padding: 15px 30px;
+  padding: 30px;
 }
 
 .slogan-item {
-  display: flex;
-  align-content: center;
   width: 100%;
   margin-bottom: 5px;
-  margin-top: 25px;
+  margin-top: 0px;
+  align-items: center;
+  display: flex;
   img {
     margin-right: 10px;
     display: inline;
@@ -31,3 +30,23 @@
     }
   }
 }
+
+.new-more-image-container {
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+  img {
+    height: 100%;
+  }
+  &:hover {
+    img {
+      transition: 0.5s;
+      opacity: 0.6;
+    }
+  }
+}
+

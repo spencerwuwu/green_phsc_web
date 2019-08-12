@@ -2,20 +2,19 @@
   color: #3C5562;
   letter-spacing: 3px !important; }
 
-#slogan-wrapper {
+.slogan-wrapper {
   background-color: #F8F8F8;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-content: center;
-  align-items: center;
-  padding: 15px 30px; }
+  padding: 30px; }
 
 .slogan-item {
-  display: flex;
-  align-content: center;
   width: 100%;
   margin-bottom: 5px;
-  margin-top: 25px; }
+  margin-top: 0px;
+  align-items: center;
+  display: flex; }
   .slogan-item img {
     margin-right: 10px;
     display: inline;
@@ -23,5 +22,19 @@
     @media screen and (max-width: 768px) {
       .slogan-item img {
         height: 35px; } }
+
+.new-more-image-container {
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden; }
+  .new-more-image-container img {
+    height: 100%; }
+  .new-more-image-container:hover img {
+    transition: 0.5s;
+    opacity: 0.6; }
 
 /*# sourceMappingURL=slogan.css.map */

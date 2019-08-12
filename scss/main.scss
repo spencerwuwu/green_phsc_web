@@ -580,27 +580,6 @@ a.yellowlink {
   }
 }
 
-.new-more-image-container {
-  margin-top: 20px;
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  overflow: hidden;
-  img {
-    height: 100%;
-    width: auto;
-  }
-  &:hover {
-    img {
-      transition: 0.5s;
-      opacity: 0.6;
-    }
-  }
-}
-
-
 .show-two-wrapper {
   width: 100%;
   display: flex;
